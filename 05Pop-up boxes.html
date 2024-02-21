@@ -1,0 +1,35 @@
+/*
+1.pop-up boaxed
+confirm, alert, and prompt aee three types of pop-up boxes
+confirm box will return true when ok is selected
+alert box will not return anything
+prompt boxes will return whatever is in the text box
+prompt boxes will have an optional second parameter, which is
+the text that will already be in the text box
+*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript in Browser</title>
+</head>
+<body>
+
+<script>
+    function runCode() {
+        confirm("Hi!");
+        prompt("Bye!");
+        alert("Hello");
+
+        var test = prompt("Type Hi!");
+        console.log(test);
+    }
+
+    runCode();
+</script>
+
+</body>
+</html>
+
+
