@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int n, m;
+    unsigned int n, m;
+    n < m;
     printf("Start Size: ");
     scanf("%d", &n);
     printf("End Size: ");
     scanf("%d", &m);
 
-    int born, dead, years = 0;
+    unsigned int born, dead, years = 0;
     while (n < m) {
-       born = n += n / 3; // llamas born
-       dead= n -= n / 4; // llamas die
+       born = n / 3; // llamas born
+       dead= n / 4; // llamas die
         n += born - dead;
         years++;
     }
