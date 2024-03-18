@@ -80,21 +80,27 @@ int main()
 {
     int n, number, triangularNumber, counter;
     counter = 1;
-
+    triangularNumber = 0;
+    n = 1;
     while (counter <= 5) 
     {
         printf("Enter the triangular number you want: ");
         scanf("%i", &number);
-    }
-        triangularNumber = 0;
-        n = 1;
+        counter++;
+        
         while (n <= number)
         {
             triangularNumber += n;
-            n++;
-            
+            n++; 
         }
         printf("Triangular number %i is %i\n\n", number, triangularNumber);
-        
+
+        // Reset the n and triangularNumber to default value for the next loop.
+        n = 1;
+        triangularNumber = 0;
+    }    
     return 0;
 }
+
+
+
