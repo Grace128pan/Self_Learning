@@ -46,3 +46,7 @@ int main ()
 
     return 0;
 }
+
+/*
+if ( (year % 4 == 0 && year % 100 != 0) || year % 400 == 0 ) will work, you should leave some spaces in between to make it more readable
+*/
