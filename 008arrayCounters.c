@@ -5,8 +5,10 @@ chapter6. program 6.2 Demonstrating an array of counters
 
 int main ()
 {
-    int ratingCounters[11], i, response; //define an array of 11 integers
-
+    int ratingCounters[11];
+    int i, response; //define an array of 11 integers
+    
+    
     for (i = 1; i <= 10; i++)
     {
         ratingCounters[i] = 0;
@@ -15,7 +17,7 @@ int main ()
 
     for (i = 1; i <=20; i++)
     {
-        scanf("%i", response);
+        scanf("%i", &response);
         if (response < 1 || response > 10)
         {
             printf("Bad response: %i\n", response); //check the response is between 1 and 10
@@ -31,8 +33,15 @@ int main ()
 
     for (i=1; i<=10; i++)
     {
-        printf("%4i %14i\n", i, ratingCounters[i]); //print the results
+        printf("%4i%14i\n", i, ratingCounters[i]); //print the results
     }
 
     return 0;
 }
+
+/*steps
+1.Initialize an array of length 11 to keep track of the count of each rating.
+2.Prompt the user to input ratings.
+3.Loop to read 20 ratings inputted by the user, storing them in the array and incrementing the count for each rating.
+4.Output each rating along with its corresponding count to display the distribution of ratings.
+*/
