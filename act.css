@@ -1,0 +1,119 @@
+/* Apply Dancing Script font to the brand */
+.navbar-brand {
+    font-family: 'Dancing Script', cursive, sans-serif;
+}
+
+/* Style the search form */
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form .form-control {
+    width: 50%;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.search-form .btn {
+    width: 25%; /* Adjust the width as needed */
+    background-color: rgb(128, 128, 128); /* Set a different background color */
+    color: white; /* Set text color */
+    border: none; /* Remove border */
+    font-size: 16px;
+}
+
+.search-form .btn:hover {
+    background-color: rgb(100, 100, 100); /* Change color on hover */
+}
+
+.col-md-4 h2, h3 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Center the text inside p elements and apply Playfair Display font */
+.col-md-4 p, li {
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+}
+
+.col-md-4 img {
+    border-radius: 10px;
+    margin: 12px 12px;
+}
+
+.text-right {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+/* Justify the text in paragraphs */
+.text-center p {
+    text-align: justify;
+}
+
+/* Style images to fit in their columns and apply border-radius */
+.text-center img {
+    max-width: 100%; /* Ensure images fit within their columns */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Apply border-radius for smoother appearance */
+}
+
+.text-right {
+    text-align: center;
+}
+
+/* CSS for shadow and scaling effect on hover */
+.watch-story,
+.demo {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.text-right:hover + a .watch-story,
+.text-right:hover + a .demo {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.watch-story:hover,
+.demo:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Add a delay before hiding the image again */
+.watch-story,
+.demo {
+    transition-delay: 0.5s;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.links-list {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+.links-list li {
+    margin-bottom: 10px; /* Add margin between list items */
+}
+
+.links-list li a {
+    color: blue; /* Change link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.links-list li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+#guide_video {
+    width: 100%;
+}
