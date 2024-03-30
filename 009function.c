@@ -24,6 +24,7 @@ void printMessage(void) {
 
 int main(void) {
     printMessage();
+    printMessage();
     return 0;
 }
 
