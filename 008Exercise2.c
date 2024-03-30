@@ -6,7 +6,6 @@ be keyed in by the user to indicate that the last response has been entered.(hin
 if you want to exit your loop.)
 */
 #include <stdio.h>
-
 int main() {
     int ratingCounters[11] = {0}; // Initialize array to store response counts
     int response;
@@ -37,6 +36,8 @@ int main() {
 
     return 0;
 }
+
+
 //This is a perfect way to make sure user can enter any number of responses without having to count the number of responses
 
 
