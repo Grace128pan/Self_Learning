@@ -1,0 +1,30 @@
+/* Reset default styling */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+header div {
+    padding: 10px;
+    border: 2px solid blue;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: lightgrey;
+}
