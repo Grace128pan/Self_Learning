@@ -7,10 +7,12 @@ dimensions.
 A variable-length array (VLA) is an array whose length is determined at runtime rather than compile time
 */
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h>  // this is used for dynamic memory allocation
 
 // Function to transpose a matrix of given dimensions
-void transposeMatrix(int rows, int cols, int **input, int **output) {
+// the reason for using **input is to allow flexibility in handling 2D arrays of different sizes
+// int input[i][j] means fixed-size 2D array, i and j must be known at compile time
+void transposeMatrix(int rows, int cols, int **input, int **output) {  //input and output are pointers to pointers
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
             output[j][i] = input[i][j];
@@ -91,4 +93,5 @@ Two helper functions, allocateArray() and freeArray(), are defined to allocate a
 Inside the main() function, we allocate memory for the original matrix (matrix1) and the transposed matrix (transposed) using the allocateArray() function.
 After using the matrices, memory is freed using the freeArray() function to prevent memory leaks.
 */
-//need more time to figure it out. oafe 200
+//need more time to figure it out.
+//In this way, pointers are utilized. I need to make more progress in the following chapters
