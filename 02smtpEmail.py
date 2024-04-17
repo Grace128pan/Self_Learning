@@ -40,3 +40,5 @@ email_body = "This is a test email sent from Python."
 # Send email
 send_email(email_subject, email_body, sender_email, recipient_emails)
 
+# This problem is not solved, waiting to be solved
+
