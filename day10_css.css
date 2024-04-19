@@ -1,0 +1,29 @@
+.output {
+    border: 1px solid #df1414;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #df1414;
+    padding: 0.5rem;
+    background-color: aliceblue;
+    width: 50%;
+}
+
+.my-table {
+    border: 2px solid #df1414;
+    border-collapse: collapse;
+
+}
+.my-table td {
+    border: 1px solid #df1414;
+    padding: 0.5rem;
+}
+
+.my-table th {
+    border: 1px solid #df1414;
+    padding: 0.5rem;
+    background-color: #df1414;
+    color: white;
+}
+
+span {
+    background-color: aliceblue;
+}

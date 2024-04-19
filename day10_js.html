@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 10-javascript conditionals, branching and boolean logic</title>
+    <link rel="stylesheet" href="day10_css.css">
+    <script src="day10_js.js" defer></script>
+</head>
+<body>
+    <h1>Day10-javascript conditionals, branching and boolean logic</h1>
+    <article>
+        <h2>Javascript and dom api</h2>
+        <p>We will learn js conditions, branching and boolean logic.</p>
+        <p>DOM is essential for doing anything with javascript in th browser</p>
+    </article>
+    <h2>conditionals</h2>
+    <p>comparisons-compare numbers, strings, booleans</p>
+    <ul>
+        <li>4 == 4 is<span id="comparisons1"></span></li>
+        <li >4 === 4 is<span id="comparisons2"></span></li>
+        <li >5 > 3 is <span id="comparisons3"></span></li>
+        <li>10 != 2<span id="comparisons4"></span></li>
+        <li>&gt; - greater than<span id="comparisons5"></span></li>
+        <li>&lt; - less than<span id="comparisons6"></span></li>
+        <li>&gt;= - greater than or equal to<span id="comparisons7"></span></li>
+        <li>&lt;= - less than or equal to  <span id="comparisons8"></span><stong>Avoiding using "22" + 1 = 221</stong></li>
+    </ul>
+    <h2>Boolean values</h2>
+    <p>results of our comparison operators are called boolean values. They are named after George Boole</p>
+    <p> More about George Boole: <a href="https://en.wikipedia.org/wiki/George_Boole"></a></p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/George_Boole_color.jpg/330px-George_Boole_color.jpg" width= "200" alt="George Boole" alt="George boole">
+    <h3>boolen tables</h3>
+    <table class="my-table">
+        <tr>
+            <th>AND</th>
+            <th>OR</th>
+            <th>NOT</th>
+        </tr>
+        <tr>
+            <td>true && true = true</td>
+            <td>true || false = true</td>
+            <td>!true = false</td>
+        </tr>
+        <tr>
+            <td>true && false = false</td>
+            <td>true || true = true</td>
+            <td>!false = true</td>
+        </tr>
+        <tr>
+            <td>false && true = false</td>
+            <td>false || false = false</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>false && false = false</td>
+            <td></td>
+            <td></td>
+        </tr>
+        </table>
+
+        <p>Assume we have two variables a and b and they will hold truth values</p>
+        <p>Let's say a = true and b = false</p>
+        <p>then a And b will be false</p>
+
+        <h2>branching</h2>
+        <p>Branching is a way to run different code based on different conditions</p>
+        <pre>
+            <code>
+                if (condition) {
+                    //run this code
+                } else {
+                    //run this code
+                }
+            </code>
+        </pre>
+    <div class="output" id="output">Some content</div>
+</html>
