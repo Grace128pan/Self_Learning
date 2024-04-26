@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lOOPING AND SWITCHES</title>
+    <link rel="stylesheet" href="day11.css">
+    <script src="day11.js" defer></script>
+</head>
+<body>
+    <h1>Looping</h1>
+    <h2>While loop</h2>
+    <h3></h3>
+    <p>Example</p>
+    <pre>
+    <code>
+        let i = 0;
+        While (i &lt; 5) {
+            console.log(i);
+            i++;
+        }
+    </code>
+</pre>
+<p>Output: </p>
+<p id="doWhileLoopOutput"></p>
+<h2>Do while loop</h2>
+<p>do while loops to execute at least once</p>
+<pre>
+    <code>
+        let i = 0;
+        do {
+            console.log(i);
+            i++;
+        } while (i &lt; 5);
+    </code>
+</pre>
+<p>Output: </p>
+<p>you can simulate do while loop with regular while loop</p>
+<h3>For loop</h3>
+<P>example</P>
+<pre>
+    <code>
+        for (let i = 0; i &lt; 5; i++) {
+            console.log(i);
+        }
+    </code>
+</pre>
+<h2>switches</h2>
+<p>Example-WEEKDAYS</p>
+<pre>
+    <code>
+        let day = 'monday';
+        switch (day) {
+            case 'monday':
+                console.log('Today is Monday');
+                break;
+            case 'tuesday':
+                console.log('Today is Tuesday');
+                break;
+            case 'wednesday':
+                console.log('Today is Wednesday');
+                break;
+            case 'thursday':
+                console.log('Today is Thursday');
+                break;
+            case 'friday':
+                console.log('Today is Friday');
+                break;
+            case 'saturday':
+                console.log('Today is Saturday');
+                break;
+            case 'sunday':
+                console.log('Today is Sunday');
+                break;
+            default:
+                console.log('Invalid day');
+        }
+    </code>
+</pre>
+<p id="switchOutput">Output: </p>
+<p>Switches are useful as a tool to replace multiple if else statement</p>
+<p>In case of numerical values that start with 0, we can use array and get its elements by index</p>
+<p>In case of strings, we use switches</p>
+<p>arrays and objects will be discussed in next lectures</p>
+<h2>learning materials on loops in javascript</h2>
+<ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration" target="_blank">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration</a></li>
+    <li><a href="https://www.w3schools.com/js/js_loop_for.asp">https://www.w3schools.com/js/js_loop_for.asp</a></li>
+    <li><a href="https://www.w3schools.com/js/js_loop_while.asp">https://www.w3schools.com/js/js_loop_while.asp</a></li>
+</ul>
+
+</body>
+</html>
