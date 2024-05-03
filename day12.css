@@ -1,0 +1,10 @@
+/* Corrected CSS with lowercase 'px' in 'border-radius' */
+.fun-output {
+    border: 1px solid #000000;
+    border-radius: 5px; /* Lowercase 'px' */
+    padding: 10px;
+    min-height: 100px;
+    background-color: #cf5e5e;
+    margin: 5px 0;
+    text-align: justify;
+}
