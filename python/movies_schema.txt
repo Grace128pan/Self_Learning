@@ -1,0 +1,82 @@
+Tables in 'movies.db':
+movies
+Table: movies
+Column Name | Type
+-------------------
+id | INTEGER
+title | TEXT
+year | NUMERIC
+
+
+Sample Data from Table: movies
+(11801, 'Tötet nicht mehr', 2019)
+(13274, 'Istoriya grazhdanskoy voyny', 2021)
+(15414, 'La tierra de los toros', 2000)
+(15724, 'Dama de noche', 1993)
+(31458, 'El huésped del sevillano', 1970)
+
+
+stars
+Table: stars
+Column Name | Type
+-------------------
+movie_id | INTEGER
+person_id | INTEGER
+
+
+Sample Data from Table: stars
+(11801, 459029)
+(11801, 681726)
+(11801, 692612)
+(11801, 726256)
+(11801, 776458)
+
+
+directors
+Table: directors
+Column Name | Type
+-------------------
+movie_id | INTEGER
+person_id | INTEGER
+
+
+Sample Data from Table: directors
+(13274, 412842)
+(13274, 895048)
+(15724, 529960)
+(31458, 649563)
+(35423, 3506)
+
+
+ratings
+Table: ratings
+Column Name | Type
+-------------------
+movie_id | INTEGER
+rating | REAL
+votes | INTEGER
+
+
+Sample Data from Table: ratings
+(13274, 6.4, 40)
+(15414, 5.3, 16)
+(15724, 6.1, 26)
+(31458, 6.7, 14)
+(35423, 6.4, 84991)
+
+
+people
+Table: people
+Column Name | Type
+-------------------
+id | INTEGER
+name | TEXT
+birth | NUMERIC
+
+
+Sample Data from Table: people
+(1, 'Fred Astaire', 1899)
+(2, 'Lauren Bacall', 1924)
+(3, 'Brigitte Bardot', 1934)
+(4, 'John Belushi', 1949)
+(5, 'Ingmar Bergman', 1918)

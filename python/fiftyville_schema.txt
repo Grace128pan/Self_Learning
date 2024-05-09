@@ -1,0 +1,87 @@
+Table: crime_scene_reports
+   cid         name     type  notnull dflt_value  pk
+0    0           id  INTEGER        0       None   1
+1    1         year  INTEGER        0       None   0
+2    2        month  INTEGER        0       None   0
+3    3          day  INTEGER        0       None   0
+4    4       street     TEXT        0       None   0
+5    5  description     TEXT        0       None   0
+
+Table: interviews
+   cid        name     type  notnull dflt_value  pk
+0    0          id  INTEGER        0       None   1
+1    1        name     TEXT        0       None   0
+2    2        year  INTEGER        0       None   0
+3    3       month  INTEGER        0       None   0
+4    4         day  INTEGER        0       None   0
+5    5  transcript     TEXT        0       None   0
+
+Table: atm_transactions
+   cid              name     type  notnull dflt_value  pk
+0    0                id  INTEGER        0       None   1
+1    1    account_number  INTEGER        0       None   0
+2    2              year  INTEGER        0       None   0
+3    3             month  INTEGER        0       None   0
+4    4               day  INTEGER        0       None   0
+5    5      atm_location     TEXT        0       None   0
+6    6  transaction_type     TEXT        0       None   0
+7    7            amount  INTEGER        0       None   0
+
+Table: bank_accounts
+   cid            name     type  notnull dflt_value  pk
+0    0  account_number  INTEGER        0       None   0
+1    1       person_id  INTEGER        0       None   0
+2    2   creation_year  INTEGER        0       None   0
+
+Table: airports
+   cid          name     type  notnull dflt_value  pk
+0    0            id  INTEGER        0       None   1
+1    1  abbreviation     TEXT        0       None   0
+2    2     full_name     TEXT        0       None   0
+3    3          city     TEXT        0       None   0
+
+Table: flights
+   cid                    name     type  notnull dflt_value  pk
+0    0                      id  INTEGER        0       None   1
+1    1       origin_airport_id  INTEGER        0       None   0
+2    2  destination_airport_id  INTEGER        0       None   0
+3    3                    year  INTEGER        0       None   0
+4    4                   month  INTEGER        0       None   0
+5    5                     day  INTEGER        0       None   0
+6    6                    hour  INTEGER        0       None   0
+7    7                  minute  INTEGER        0       None   0
+
+Table: passengers
+   cid             name     type  notnull dflt_value  pk
+0    0        flight_id  INTEGER        0       None   0
+1    1  passport_number  INTEGER        0       None   0
+2    2             seat     TEXT        0       None   0
+
+Table: phone_calls
+   cid      name     type  notnull dflt_value  pk
+0    0        id  INTEGER        0       None   1
+1    1    caller     TEXT        0       None   0
+2    2  receiver     TEXT        0       None   0
+3    3      year  INTEGER        0       None   0
+4    4     month  INTEGER        0       None   0
+5    5       day  INTEGER        0       None   0
+6    6  duration  INTEGER        0       None   0
+
+Table: people
+   cid             name     type  notnull dflt_value  pk
+0    0               id  INTEGER        0       None   1
+1    1             name     TEXT        0       None   0
+2    2     phone_number     TEXT        0       None   0
+3    3  passport_number  INTEGER        0       None   0
+4    4    license_plate     TEXT        0       None   0
+
+Table: bakery_security_logs
+   cid           name     type  notnull dflt_value  pk
+0    0             id  INTEGER        0       None   1
+1    1           year  INTEGER        0       None   0
+2    2          month  INTEGER        0       None   0
+3    3            day  INTEGER        0       None   0
+4    4           hour  INTEGER        0       None   0
+5    5         minute  INTEGER        0       None   0
+6    6       activity     TEXT        0       None   0
+7    7  license_plate     TEXT        0       None   0
