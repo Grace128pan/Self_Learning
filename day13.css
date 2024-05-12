@@ -1,0 +1,30 @@
+.element-container {
+    border: 2px solid black;
+    border-radius:5px;
+    padding:10px;
+    min-height:1rem;
+    margin: 5px 0;
+}
+
+
+.new-p-element {
+    font-weight: bold;
+    font-style:italic;
+    color:rgb(14, 104, 21); 
+    background-color:rgb(255, 255, 0);
+}   
+
+.new-p-element-odd {
+    font-weight: bold;
+    font-style:italic;
+    color:blueviolet;
+    background-color:chartreuse;
+}
+
+.new-p-element-even {
+    font-weight: bold;
+    font-style:italic;
+    color:chartreuse;
+    background-color:blueviolet;
+}
+

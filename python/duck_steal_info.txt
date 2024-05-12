@@ -1,0 +1,148 @@
+crime_scene_reports(id,year,month,day,street,description)
+(295, 
+2021, 7, 28, 
+'Humphrey Street', 
+'Theft of the CS50 duck took place at 10:15am at the Humphrey Street bakery. 
+Interviews were conducted today with three witnesses who were present at the time – 
+each of their interview transcripts mentions the bakery.')
+
+interviews(id, name, year, month, day, transcript)
+Interviews on 2021-7-28:
+(161, 
+'Ruth', 
+2021, 7, 28, 
+'Sometime within ten minutes of the theft, I saw the thief get into a car in the bakery parking lot and drive away. 
+If you have security footage from the bakery parking lot, you might want to look for cars that left the parking lot in that time frame.')
+(162,
+ 'Eugene', 
+2021, 7, 28, 
+"I don't know the thief's name, but it was someone I recognized. Earlier this morning, before I arrived at Emma's bakery, 
+I was walking by the ATM on Leggett Street and saw the thief there withdrawing some money.")
+(163, 
+'Raymond', 
+2021, 7, 28, 
+'As the thief was leaving the bakery, they called someone who talked to them for less than a minute. 
+In the call, I heard the thief say that they were planning to take the earliest flight out of Fiftyville tomorrow. 
+The thief then asked the person on the other end of the phone to purchase the flight ticket.')
+
+flights(id,origin_airport_id, destination_airport_id, year, month, day, hour, minute)
+Flights on 2021-7-29:
+(18,
+ 8,
+ 6, 
+2021, 7, 29,
+ 16, 0)
+(23, 8, 11, 2021, 7, 29, 12, 15)
+(36,
+ 8,
+ 4,
+2021, 7, 29,
+ 8, 20)
+
+(43, 8, 1, 2021, 7, 29, 9, 30)
+(53, 8, 9, 2021, 7, 29, 15, 20)
+
+airports(id, abbreviation, full_name, city)
+City for Airport ID 4: New York City
+
+phone_calls(id,caller, receiver, year,month, day, duration)
+Phone Calls on 2021-7-28 with Duration < 60 seconds:
+ID: 221, Caller: (130) 555-0289, Receiver: (996) 555-8899, Duration: 51 seconds
+ID: 224, Caller: (499) 555-9472, Receiver: (892) 555-8872, Duration: 36 seconds
+ID: 233, Caller: (367) 555-5533, Receiver: (375) 555-8161, Duration: 45 seconds
+ID: 251, Caller: (499) 555-9472, Receiver: (717) 555-1342, Duration: 50 seconds
+ID: 254, Caller: (286) 555-6063, Receiver: (676) 555-6554, Duration: 43 seconds
+ID: 255, Caller: (770) 555-1861, Receiver: (725) 555-3243, Duration: 49 seconds
+ID: 261, Caller: (031) 555-6622, Receiver: (910) 555-3251, Duration: 38 seconds
+ID: 279, Caller: (826) 555-1652, Receiver: (066) 555-9701, Duration: 55 seconds
+ID: 281, Caller: (338) 555-6650, Receiver: (704) 555-2131, Duration: 54 seconds
+
+bakery_security_logs(id, year, month, day, hour, minute, activity, license_plate)
+Bakery Security Logs on 2021-7-28 between 10 AM and 11 AM:
+ID: 258, Timestamp: 2021-7-28 10:8, Activity: entrance, License Plate: R3G7486 
+ID: 259, Timestamp: 2021-7-28 10:14, Activity: entrance, License Plate: 13FNH73
+ID: 260, Timestamp: 2021-7-28 10:16, Activity: exit, License Plate: 5P2BI95    
+ID: 261, Timestamp: 2021-7-28 10:18, Activity: exit, License Plate: 94KL13X    
+ID: 262, Timestamp: 2021-7-28 10:18, Activity: exit, License Plate: 6P58WS2    
+ID: 263, Timestamp: 2021-7-28 10:19, Activity: exit, License Plate: 4328GD8    
+ID: 264, Timestamp: 2021-7-28 10:20, Activity: exit, License Plate: G412CB7    
+ID: 265, Timestamp: 2021-7-28 10:21, Activity: exit, License Plate: L93JTIZ    
+ID: 266, Timestamp: 2021-7-28 10:23, Activity: exit, License Plate: 322W7JE    
+ID: 267, Timestamp: 2021-7-28 10:23, Activity: exit, License Plate: 0NTHK55    
+ID: 268, Timestamp: 2021-7-28 10:35, Activity: exit, License Plate: 1106N58    
+ID: 269, Timestamp: 2021-7-28 10:42, Activity: entrance, License Plate: NRYN856
+ID: 270, Timestamp: 2021-7-28 10:44, Activity: entrance, License Plate: WD5M8I6
+ID: 271, Timestamp: 2021-7-28 10:55, Activity: entrance, License Plate: V47T75I
+
+people(id, name, phone_number, passpot_number, license_plate)
+People Found:
+Name: Vanessa, Phone Number: (725) 555-4692, License Plate: 5P2BI95
+Name: Barry, Phone Number: (301) 555-4174, License Plate: 6P58WS2
+Name: Iman, Phone Number: (829) 555-5269, License Plate: L93JTIZ
+Name: Sofia, Phone Number: (130) 555-0289, License Plate: G412CB7
+Name: Taylor, Phone Number: (286) 555-6063, License Plate: 1106N58
+Name: Luca, Phone Number: (389) 555-5198, License Plate: 4328GD8
+Name: Diana, Phone Number: (770) 555-1861, License Plate: 322W7JE
+Name: Kelsey, Phone Number: (499) 555-9472, License Plate: 0NTHK55
+Name: Bruce, Phone Number: (367) 555-5533, License Plate: 94KL13X
+
+atm_transactions(id, account_number, year, month, day, atm_location, transaction_type, amount)
+ATM Transactions on 2021-7-28 at 'Leggett Street' (withdraw):
+ ID  Account Number  Year  Month  Day   ATM Location Transaction Type  Amount
+246        28500762  2021      7   28 Leggett Street         withdraw      48
+264        28296815  2021      7   28 Leggett Street         withdraw      20
+266        76054385  2021      7   28 Leggett Street         withdraw      60
+267        49610011  2021      7   28 Leggett Street         withdraw      50
+269        16153065  2021      7   28 Leggett Street         withdraw      80
+288        25506511  2021      7   28 Leggett Street         withdraw      20
+313        81061156  2021      7   28 Leggett Street         withdraw      30
+336        26013199  2021      7   28 Leggett Street         withdraw      35
+
+bank_accounts(account_number, person_id,creation_year)
+Bank Accounts Information:
+ Account Number  Person ID  Creation Year
+       49610011     686048           2010
+       26013199     514354           2012
+       16153065     458378           2012
+       28296815     395717           2014
+       25506511     396669           2014
+       28500762     467400           2014
+       76054385     449774           2015
+       81061156     438727           2018
+
+people(id,name,phone_number,passport,license_plate)
+Person Information:
+    ID    Name License Plate
+395717   Kenny       30G67EN
+396669    Iman       L93JTIZ
+438727 Benista       8X428L0
+449774  Taylor       1106N58
+458378  Brooke       QX4YZN3
+467400    Luca       4328GD8
+514354   Diana       322W7JE
+686048   Bruce       94KL13X
+
+passengers(flight_id, passport_number, seat)
+Flight IDs and Passport Numbers:
+ Flight ID  Passport Number
+        11       8496433585
+        18       3592750733
+        24       3592750733
+        26       7049073643
+        36       5773159633
+        36       1988161715
+        36       8496433585
+        48       8496433585
+        54       3592750733
+
+people(id,name,phone_number,passport_number,license_plate)
+Person Information:
+ Passport Number   Name   Phone Number License Plate
+      1988161715 Taylor (286) 555-6063       1106N58
+      5773159633  Bruce (367) 555-5533       94KL13X
+
+people(id,name,phone_number, passport_number, license_plate)
+Person Information:
+  Phone Number  Name
+(676) 555-6554 James
+(375) 555-8161 Robin
