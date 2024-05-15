@@ -1,0 +1,63 @@
+<!--Visualize Data with a choropleth map-->
+<!--
+1.we should use html, javascript, css, and the D3 svg-based visualization library.
+User stories:
+step1: my choropleth should have a title with a corresponding id="title"
+step2:my choropleth should have a description element with a corresponding id="description"
+step3:my choropleth should have counties with a corresponding class="county" that represent the data
+step4:there should be at least 4 different fill colors used for the counties
+step5:my counties should each have data-fips and data-education properties containing their corresponding fips and education values
+step6:my choropleth should have a county for each provided data point
+step7:the counties should have data-fips and data-education values that match the sample data
+step8:my choropleth should have a legend with a corresponding id="legend"
+step9:there should be at least 4 different fill colors used for the legend
+step10:I can mouse over an area and see a tooltip with a corresponding id="tooltip" which displays more information about the area
+step11:my tooltip should have a data-education property that corresponds to the data-education of the active area
+Here are the datesets we should use:
+US Education Data:https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json
+US County Data:https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Visualize Data with a Choropleth Map</title>
+    <link rel="stylesheet" href="web/choropleth.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class = "container">
+        <div class = "row">
+            <div class="col">
+            </div>
+            <div class="col-10 text-center">
+              <div class="infoGraphic card">
+                  <div class="card-body">
+                  <h1 id="title" class="card-title h1">United States Educational Attainment</h1>
+                  <h2 id="description" class="card-title h2">Percentage of adults age 25 and older with a bachelor's degree or higher (2010-2014)</h2>
+                  <p id="graph" class="card-text block-center"></p>
+                  <!--<a href="" class="btn btn-primary" target="_blank">More Info</a>-->
+                </div>
+              </div>
+            </div>
+            <div class="col">
+            </div>
+          
+        </div>
+      
+      </div>
+    <div id="root"></div>
+  </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="web/choropleth.js" defer></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+</html>
+
+
+<!--
+https://www.youtube.com/watch?v=ha1toFtBfF8
+dig into this to figure out how to conduct this project
+-->
