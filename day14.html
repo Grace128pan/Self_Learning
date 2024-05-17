@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>topic-DOM with javascript</title>
+    <link rel="stylesheet" href="day14.css">
+    <script defer src="day14.js"></script>
+</head>
+<body>
+    <h1>adjust elements with javascript</h1>
+    <main>
+        <h2>adding DOM elements with javascript</h2>
+        <p>It is possible to add new elements to the DOM with javascript. this can be done with the following methods</p>
+        <ul>
+            <li>document.createElement()</li>
+            <li>document.createTextNode()</li>
+            <li>element.appendChild()</li>
+            <li>element.insertBefore()</li>
+        </ul>
+        <h3>Example</h3>
+        <pre>
+            <code>
+                // create a new paragraph element
+                var p = document.createElement('p');
+                // create a new text node
+                var text = document.createTextNode('This is a new paragraph');
+                // append the text node to the paragraph element
+                p.appendChild(text);
+                // append the paragraph element to the body of the document
+                document.body.appendChild(p);
+            </code>
+        </pre>
+        <h3>More resources</h3>
+        <ul>
+            <li><a href="https://www.w3schools.com/js/js_htmldom_elements.asp">w3schools</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement">MDN web docs</a></li>
+        </ul>
+        <hr>
+        <h2>Remove DOM elements with javascript</h2>
+        <p>It is possible to remove elements from the DOM with javascript. this can be done with the following methods</p>
+        <ul>
+            <li>element.removeChild()</li>
+            <li>element.remove()</li>
+        </ul>
+        <h3>Example</h3>
+        <pre>
+            <code>
+                // get the paragraph element
+                var p = document.querySelector('p');
+                // remove the paragraph element from the body of the document
+                document.body.removeChild(p);
+            </code>
+        </pre>
+        <h3>More resources</h3>
+        <ul>
+            <li><a href="https://www.w3schools.com/js/js_htmldom_elements.asp">w3schools</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild">MDN web docs</a></li>
+        </ul>
+        <h3>Creating elements with different classes and ids</h3>
+        <button id="add-element-button" class="btn-add-element">Add element</button>
+        <button id="remove-element-button" class="btn-remove-element">Remove element</button>
+        <div class="element-container" id="element-container-1"></div>
+    </main>
+</body>
+</html>

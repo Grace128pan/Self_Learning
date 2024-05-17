@@ -1,0 +1,35 @@
+.element-container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin: 5px;
+    min-height: 3rem;
+    padding: 10px;
+}
+
+/* Let's add a CSS for boxy class */
+.boxy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    min-width: 12rem;
+    min-height: 1.5rem;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+.cool {
+    background-color: rgb(127, 255, 148);
+}
+
+.odd {
+    background-color: #9e2424;
+}
+
+.even {
+    background-color: aquamarine;
+}
