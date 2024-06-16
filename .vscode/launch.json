@@ -1,6 +1,7 @@
 {
     "configurations": [
         
+        
             
         {
             "name": "C++ Debug",
@@ -68,7 +69,7 @@
                 }
             ]
         },
-
+        
         {
             "name": "(Windows) Launch",
             "type": "cppvsdbg",
@@ -99,7 +100,19 @@
             "request": "attach",
             "processId": "${command:pickProcess}"
         },
-        
+        {
+            "name": "C/C++: gcc build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/main.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+          
+          },
         
 
         {

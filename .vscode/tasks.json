@@ -13,6 +13,51 @@
             ],
             "group": "build"
         },
+        
+            
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "${workspaceFolder}/main.c",
+                "-IC:/SDL2-devel-2.30.3-VC/SDL2-2.30.3/include",
+                "-LC:/SDL2-devel-2.30.3-VC/SDL2-2.30.3/lib/x86",
+                "-lSDL2",
+                "-o",
+                "${workspaceFolder}/build/main.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Generated task"
+        },
+            
+          
+          
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "${workspaceFolder}/src/main.c",
+                "-IC:/SDL2-devel-2.30.3-VC/SDL2-2.30.3/include",
+                "-LC:/SDL2-devel-2.30.3-VC/SDL2-2.30.3/lib/x86",
+                "-lSDL2",
+                "-o",
+                "${workspaceFolder}/build/main.exe"
+              ],
+            "group": {
+              "kind": "build",
+              "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Generated task"
+          },
         {
             "type": "cppbuild",
             "label": "C/C++: gcc.exe build active file",
