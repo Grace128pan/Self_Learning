@@ -1,8 +1,19 @@
 {
     "configurations": [
-        
-        
-            
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "JPrograms.Main",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "java.Main",
+            "projectName": "Self_Learning_f135990f"
+        },
         {
             "name": "C++ Debug",
             "type": "cppvsdbg",
@@ -10,14 +21,11 @@
             "program": "${workspaceFolder}/a.exe",
             "args": [],
             "stopAtEntry": false,
-             "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}",
             "environment": [],
             "console": "externalTerminal",
             "preLaunchTask": "build"
         },
-            
-    
-        
         {
             "name": "(gdb) Launch",
             "type": "cppdbg",
@@ -43,7 +51,6 @@
                 }
             ]
         },
-
         {
             "name": "(gdb) Launch",
             "type": "cppdbg",
@@ -69,7 +76,6 @@
                 }
             ]
         },
-        
         {
             "name": "(Windows) Launch",
             "type": "cppvsdbg",
@@ -81,7 +87,6 @@
             "environment": [],
             "console": "externalTerminal"
         },
-           
         {
             "name": "(Windows) Launch",
             "type": "cppvsdbg",
@@ -93,7 +98,6 @@
             "environment": [],
             "console": "externalTerminal"
         },
-
         {
             "name": "(Windows) Attach",
             "type": "cppvsdbg",
@@ -110,11 +114,8 @@
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
-            "MIMode": "gdb",
-          
-          },
-        
-
+            "MIMode": "gdb"
+        },
         {
             "name": "(gdb) Pipe Launch",
             "type": "cppdbg",
@@ -184,7 +185,9 @@
             "pipeTransport": {
                 "debuggerPath": "/usr/bin/gdb",
                 "pipeProgram": "${env:windir}\\system32\\bash.exe",
-                "pipeArgs": ["-c"],
+                "pipeArgs": [
+                    "-c"
+                ],
                 "pipeCwd": ""
             },
             "setupCommands": [
@@ -209,7 +212,9 @@
             "pipeTransport": {
                 "debuggerPath": "/usr/bin/gdb",
                 "pipeProgram": "${env:windir}\\system32\\bash.exe",
-                "pipeArgs": ["-c"],
+                "pipeArgs": [
+                    "-c"
+                ],
                 "pipeCwd": ""
             },
             "setupCommands": [
@@ -225,7 +230,6 @@
                 }
             ]
         },
-        
         {
             "name": "(gdb) Attach",
             "type": "cppdbg",
@@ -246,8 +250,6 @@
                 }
             ]
         },
-        
-
         {
             "args": [
                 "--extensionDevelopmentPath=${workspaceFolder}"
