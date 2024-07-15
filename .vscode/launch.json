@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MeterToInches",
+            "request": "launch",
+            "mainClass": "JPrograms.MeterToInches",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Keywords",
+            "request": "launch",
+            "mainClass": "JPrograms.Keywords",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "GalToLiter",
             "request": "launch",
             "mainClass": "JPrograms.GalToLiter",
