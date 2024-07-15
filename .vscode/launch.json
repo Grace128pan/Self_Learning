@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GalToLiter",
+            "request": "launch",
+            "mainClass": "JPrograms.GalToLiter",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Blockdemo",
+            "request": "launch",
+            "mainClass": "JPrograms.Blockdemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Forloop",
+            "request": "launch",
+            "mainClass": "JPrograms.Forloop",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Ifdemo",
+            "request": "launch",
+            "mainClass": "JPrograms.Ifdemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Exercise2",
+            "request": "launch",
+            "mainClass": "JPrograms.Exercise2",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "Exercise1",
             "request": "launch",
             "mainClass": "JPrograms.Exercise1",
