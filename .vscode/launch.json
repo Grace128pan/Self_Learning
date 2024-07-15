@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CharDemo",
+            "request": "launch",
+            "mainClass": "JPrograms.CharDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Floatingpoint",
+            "request": "launch",
+            "mainClass": "JPrograms.Floatingpoint",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Chapter2",
+            "request": "launch",
+            "mainClass": "JPrograms.Chapter2",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "MeterToInches",
             "request": "launch",
             "mainClass": "JPrograms.MeterToInches",
