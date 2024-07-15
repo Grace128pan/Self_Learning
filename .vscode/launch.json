@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "VarLife",
+            "request": "launch",
+            "mainClass": "JPrograms.VarLife",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "DynInit",
+            "request": "launch",
+            "mainClass": "JPrograms.DynInit",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "StrDemo",
+            "request": "launch",
+            "mainClass": "JPrograms.StrDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Sound",
+            "request": "launch",
+            "mainClass": "JPrograms.Sound",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "BoolDemo",
+            "request": "launch",
+            "mainClass": "JPrograms.BoolDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "CharDemo",
             "request": "launch",
             "mainClass": "JPrograms.CharDemo",
