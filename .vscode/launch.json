@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PromoDemo",
+            "request": "launch",
+            "mainClass": "JPrograms.PromoDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "CastDemo",
+            "request": "launch",
+            "mainClass": "JPrograms.CastDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "ShortCOp",
             "request": "launch",
             "mainClass": "JPrograms.ShortCOp",
