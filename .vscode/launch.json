@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrimeNumber",
+            "request": "launch",
+            "mainClass": "JPrograms.PrimeNumber",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "PromoDemo",
             "request": "launch",
             "mainClass": "JPrograms.PromoDemo",

@@ -7,7 +7,7 @@
  package JPrograms;
 
  public class PrimeNumber {
-    public static void mian(String[] args) {
+    public static void main(String[] args) {
         int start = 2;
         int end = 100;
 
@@ -25,7 +25,7 @@
             return false;
         }
         
-        for(int i=2; i<=Math.sqrt(number); i++) {
+        for(int i=2; i<=Math.sqrt(number); i++) {    //this is the short-cut easy way to find prime numbers
             if (number % i == 0) {
                 return false;
             }
