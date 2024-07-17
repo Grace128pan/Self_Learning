@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MissingIter",
+            "request": "launch",
+            "mainClass": "JPrograms.MissingIter",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "ForTest",
+            "request": "launch",
+            "mainClass": "JPrograms.ForTest",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "DecrFor",
             "request": "launch",
             "mainClass": "JPrograms.DecrFor",
