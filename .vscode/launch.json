@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DecrFor",
+            "request": "launch",
+            "mainClass": "JPrograms.DecrFor",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "RoundingError",
             "request": "launch",
             "mainClass": "JPrograms.RoundingError",
