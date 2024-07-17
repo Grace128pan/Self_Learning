@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IfElseIf",
+            "request": "launch",
+            "mainClass": "JPrograms.IfElseIf",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Guessletter2",
+            "request": "launch",
+            "mainClass": "JPrograms.Guessletter2",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Guessletter",
+            "request": "launch",
+            "mainClass": "JPrograms.Guessletter",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Chapter3",
+            "request": "launch",
+            "mainClass": "JPrograms.Chapter3",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "PrimeNumber",
             "request": "launch",
             "mainClass": "JPrograms.PrimeNumber",
