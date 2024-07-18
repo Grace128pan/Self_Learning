@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DoWDemo",
+            "request": "launch",
+            "mainClass": "JPrograms.DoWDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "WhileLoop",
+            "request": "launch",
+            "mainClass": "JPrograms.WhileLoop",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "MissingIter",
             "request": "launch",
             "mainClass": "JPrograms.MissingIter",
