@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BreakWithlabel",
+            "request": "launch",
+            "mainClass": "JPrograms.BreakWithlabel",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Break3",
+            "request": "launch",
+            "mainClass": "JPrograms.Break3",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Break2",
+            "request": "launch",
+            "mainClass": "JPrograms.Break2",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "BreakDemo",
+            "request": "launch",
+            "mainClass": "JPrograms.BreakDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Help2",
+            "request": "launch",
+            "mainClass": "JPrograms.Help2",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "Guessletter3",
             "request": "launch",
             "mainClass": "JPrograms.Guessletter3",
