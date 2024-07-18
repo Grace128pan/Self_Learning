@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BreakWithlabel3",
+            "request": "launch",
+            "mainClass": "JPrograms.BreakWithlabel3",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "BreakWithlabel2",
+            "request": "launch",
+            "mainClass": "JPrograms.BreakWithlabel2",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "BreakWithlabel",
             "request": "launch",
             "mainClass": "JPrograms.BreakWithlabel",
