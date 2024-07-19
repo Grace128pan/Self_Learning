@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IfElseIfDemo",
+            "request": "launch",
+            "mainClass": "JPrograms.IfElseIfDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "SpaceCount",
             "request": "launch",
             "mainClass": "JPrograms.SpaceCount",
