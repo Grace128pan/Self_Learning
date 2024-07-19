@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NestedLoop2",
+            "request": "launch",
+            "mainClass": "JPrograms.NestedLoop2",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "NestedLoop",
+            "request": "launch",
+            "mainClass": "JPrograms.NestedLoop",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "Help3",
             "request": "launch",
             "mainClass": "JPrograms.Help3",
