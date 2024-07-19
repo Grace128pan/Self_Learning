@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Help3",
+            "request": "launch",
+            "mainClass": "JPrograms.Help3",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "ContiWithLabel",
+            "request": "launch",
+            "mainClass": "JPrograms.ContiWithLabel",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "ContiDemo",
+            "request": "launch",
+            "mainClass": "JPrograms.ContiDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "BreakWithlabel4",
+            "request": "launch",
+            "mainClass": "JPrograms.BreakWithlabel4",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "BreakWithlabel3",
             "request": "launch",
             "mainClass": "JPrograms.BreakWithlabel3",
