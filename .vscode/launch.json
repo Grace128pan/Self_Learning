@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BreakTest",
+            "request": "launch",
+            "mainClass": "JPrograms.BreakTest",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "sum",
+            "request": "launch",
+            "mainClass": "JPrograms.sum",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "CountDown",
+            "request": "launch",
+            "mainClass": "JPrograms.CountDown",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "IfElse2",
             "request": "launch",
             "mainClass": "JPrograms.IfElse2",
