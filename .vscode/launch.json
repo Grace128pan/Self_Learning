@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IfElse2",
+            "request": "launch",
+            "mainClass": "JPrograms.IfElse2",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "IfElseIfDemo",
             "request": "launch",
             "mainClass": "JPrograms.IfElseIfDemo",
