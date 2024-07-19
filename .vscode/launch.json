@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SpaceCount",
+            "request": "launch",
+            "mainClass": "JPrograms.SpaceCount",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "NestedLoop2",
             "request": "launch",
             "mainClass": "JPrograms.NestedLoop2",
