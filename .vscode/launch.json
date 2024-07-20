@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Vehicle2",
+            "request": "launch",
+            "mainClass": "JPrograms.Vehicle2",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "VehicleDemo",
+            "request": "launch",
+            "mainClass": "JPrograms.VehicleDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "UpperLower",
             "request": "launch",
             "mainClass": "JPrograms.UpperLower",
