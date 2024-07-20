@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PowDemo",
+            "request": "launch",
+            "mainClass": "JPrograms.PowDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Conti",
+            "request": "launch",
+            "mainClass": "JPrograms.Conti",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "BreakTest",
             "request": "launch",
             "mainClass": "JPrograms.BreakTest",
