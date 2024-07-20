@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MethodDemo",
+            "request": "launch",
+            "mainClass": "JPrograms.MethodDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Vehicle3",
+            "request": "launch",
+            "mainClass": "JPrograms.Vehicle3",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "addMeth",
+            "request": "launch",
+            "mainClass": "JPrograms.addMeth",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "Vehicle2",
             "request": "launch",
             "mainClass": "JPrograms.Vehicle2",
