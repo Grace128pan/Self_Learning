@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UpperLower",
+            "request": "launch",
+            "mainClass": "JPrograms.UpperLower",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "PowDemo",
             "request": "launch",
             "mainClass": "JPrograms.PowDemo",
