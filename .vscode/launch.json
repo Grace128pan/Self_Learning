@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ParmConsDemo",
+            "request": "launch",
+            "mainClass": "JPrograms.ParmConsDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "ConsDemo",
+            "request": "launch",
+            "mainClass": "JPrograms.ConsDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "HelpClassDemo",
+            "request": "launch",
+            "mainClass": "JPrograms.HelpClassDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "CompFuel",
+            "request": "launch",
+            "mainClass": "JPrograms.CompFuel",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "Parm",
             "request": "launch",
             "mainClass": "JPrograms.Parm",
