@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Parm",
+            "request": "launch",
+            "mainClass": "JPrograms.Parm",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "ParmDemo",
+            "request": "launch",
+            "mainClass": "JPrograms.ParmDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "RetMeth",
+            "request": "launch",
+            "mainClass": "JPrograms.RetMeth",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "MethodDemo",
             "request": "launch",
             "mainClass": "JPrograms.MethodDemo",

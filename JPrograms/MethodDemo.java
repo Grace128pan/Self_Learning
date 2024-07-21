@@ -7,6 +7,8 @@
         // ...
     if(error) return; // return when return statement is executed
  }
+3. return value: such as sqrt() method returns the value contains the outcome of some calculations; In other cases, the return value indicate success or failure(a status code)
+4.non-void method can return a value
  */
 
  package JPrograms;
