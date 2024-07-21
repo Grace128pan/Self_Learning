@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CarInfo",
+            "request": "launch",
+            "mainClass": "JPrograms.CarInfo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "DemoPwr",
+            "request": "launch",
+            "mainClass": "JPrograms.DemoPwr",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "VehConsDemo",
+            "request": "launch",
+            "mainClass": "JPrograms.VehConsDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "ParmConsDemo",
             "request": "launch",
             "mainClass": "JPrograms.ParmConsDemo",
