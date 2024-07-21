@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MyCounterTest",
+            "request": "launch",
+            "mainClass": "JPrograms.MyCounterTest",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "Car2",
             "request": "launch",
             "mainClass": "JPrograms.Car2",
