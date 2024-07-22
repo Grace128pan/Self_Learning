@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "newIllustrate",
+            "request": "launch",
+            "mainClass": "JPrograms.newIllustrate",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "ConsInit",
+            "request": "launch",
+            "mainClass": "JPrograms.ConsInit",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "MyMethod",
+            "request": "launch",
+            "mainClass": "JPrograms.MyMethod",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "MyCounterTest",
             "request": "launch",
             "mainClass": "JPrograms.MyCounterTest",
