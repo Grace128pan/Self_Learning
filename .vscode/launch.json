@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LengthDemo",
+            "request": "launch",
+            "mainClass": "JPrograms.LengthDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "AssignARef",
             "request": "launch",
             "mainClass": "JPrograms.AssignARef",
