@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayCopy",
+            "request": "launch",
+            "mainClass": "JPrograms.ArrayCopy",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "LengthDemo",
             "request": "launch",
             "mainClass": "JPrograms.LengthDemo",
