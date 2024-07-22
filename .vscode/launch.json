@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Chapter5",
+            "request": "launch",
+            "mainClass": "JPrograms.Chapter5",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Method3",
+            "request": "launch",
+            "mainClass": "JPrograms.Method3",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "Method2",
             "request": "launch",
             "mainClass": "JPrograms.Method2",
