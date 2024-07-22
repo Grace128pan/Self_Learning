@@ -21,7 +21,7 @@ if the method eos not return a value, the return type is void
 
 package JPrograms;
 
-class Vehicle {
+class VehicleN {
     int passengers;
     int fuelcap;
     int mpg;
@@ -29,11 +29,11 @@ class Vehicle {
 
 class Vehicle2 {
     public static void main(String args[]) {
-        Vehicle minivan = new Vehicle();
-        Vehicle sportscar = new Vehicle();
-        Vehicle car1 = new Vehicle();
-        Vehicle car2 = car1;
-        Vehicle car3 = new Vehicle();
+        VehicleN minivan = new VehicleN();
+        VehicleN sportscar = new VehicleN();
+        VehicleN car1 = new VehicleN();
+        VehicleN car2 = car1;
+        VehicleN car3 = new VehicleN();
         car2 = car3; // car2 is now a reference to the same object as car3
 
         int range1, range2;

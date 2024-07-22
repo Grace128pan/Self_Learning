@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AssignARef",
+            "request": "launch",
+            "mainClass": "JPrograms.AssignARef",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Squares",
+            "request": "launch",
+            "mainClass": "JPrograms.Squares",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "Ragged",
             "request": "launch",
             "mainClass": "JPrograms.Ragged",
