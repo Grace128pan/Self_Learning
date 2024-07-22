@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Method2",
+            "request": "launch",
+            "mainClass": "JPrograms.Method2",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Method1",
+            "request": "launch",
+            "mainClass": "JPrograms.Method1",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "TVDemo",
+            "request": "launch",
+            "mainClass": "JPrograms.TVDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "thisReturnObj",
             "request": "launch",
             "mainClass": "JPrograms.thisReturnObj",
