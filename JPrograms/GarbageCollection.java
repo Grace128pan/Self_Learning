@@ -4,6 +4,7 @@
  2. The example demonstrates how garbage collection works.
  3. Although you can not explicitly force garbage collection, you can suggest it by calling'System.gc()'.
  */
+/* 
 package JPrograms;
 
  public class GarbageCollection {
@@ -51,3 +52,4 @@ package JPrograms;
     }
 }
 
+*/

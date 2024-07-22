@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "thisCallCons",
+            "request": "launch",
+            "mainClass": "JPrograms.thisCallCons",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "GarbageCollection",
             "request": "launch",
             "mainClass": "JPrograms.GarbageCollection",
