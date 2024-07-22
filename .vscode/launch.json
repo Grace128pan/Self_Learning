@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TwoD",
+            "request": "launch",
+            "mainClass": "JPrograms.TwoD",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "JPrograms.BubbleSort",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "array2",
+            "request": "launch",
+            "mainClass": "JPrograms.array2",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "array",
+            "request": "launch",
+            "mainClass": "JPrograms.array",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "Chapter5",
             "request": "launch",
             "mainClass": "JPrograms.Chapter5",
