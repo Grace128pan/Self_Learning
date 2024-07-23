@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ForEach2",
+            "request": "launch",
+            "mainClass": "ForEach2",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "NoChange",
+            "request": "launch",
+            "mainClass": "NoChange",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "ForEachDemo",
             "request": "launch",
             "mainClass": "ForEachDemo",
