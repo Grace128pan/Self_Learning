@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ForEachDemo",
+            "request": "launch",
+            "mainClass": "ForEachDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "QDemo",
             "request": "launch",
             "mainClass": "QDemo",
