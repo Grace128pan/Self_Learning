@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StrSwitch",
+            "request": "launch",
+            "mainClass": "StrSwitch",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "SubStr",
             "request": "launch",
             "mainClass": "SubStr",
