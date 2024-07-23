@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SubStr",
+            "request": "launch",
+            "mainClass": "SubStr",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "StringArrays",
+            "request": "launch",
+            "mainClass": "StringArrays",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "StrOperations",
             "request": "launch",
             "mainClass": "StrOperations",
