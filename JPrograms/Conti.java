@@ -2,7 +2,6 @@
  This program will demonstrate the usage of continue statement in Java
  */
 
- package JPrograms;
 
  public class Conti {
     public static void main(String[] args) {

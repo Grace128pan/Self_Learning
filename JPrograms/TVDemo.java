@@ -2,7 +2,7 @@
 1. a constructor in Java can have one or more parameters. These parameters are used to initialize the instance variable of an object when it is created
  */
 
- package JPrograms;
+
 
  class TV {
     String brand;

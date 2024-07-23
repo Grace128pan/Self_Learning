@@ -3,7 +3,7 @@
 2.nested if statement
 
  */
-package JPrograms;
+
 
 public class Guessletter {
     public static void main(String[] args) 

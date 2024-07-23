@@ -2,7 +2,7 @@
  the program will demonstrate the method to set a value
  */
 
- package JPrograms;
+
 
  class NewCounter {
     int count;

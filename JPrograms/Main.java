@@ -3,7 +3,7 @@
 run this program, delcaring the package name different from java. Then it is done
  */
 
-package JPrograms;
+
 
 public class Main {
     public static void main(String[] args) {

@@ -5,7 +5,6 @@
     * Breaking long lines of code into separate lines will make the code more readable
  */
 
-package JPrograms;
 
 public class Blockdemo {
     public static void main(String[] args) {

@@ -2,7 +2,7 @@
  1. The program shows array initializer
  */
 
- package JPrograms;
+
 
  class array2 {
     public static void main(String[] args) {

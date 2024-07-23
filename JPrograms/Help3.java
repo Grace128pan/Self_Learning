@@ -2,7 +2,7 @@
  This is the final version of the Help system
  */
 
- package JPrograms;
+
 
  public class Help3 {
     public static void main(String[] args) 

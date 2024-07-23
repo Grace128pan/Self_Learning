@@ -29,7 +29,7 @@
  13. jdk(Java Development Kit) is a software development kit used to develop Java applications
  */
 
-package JPrograms;
+
 
 public class Chapter1 {
     public static void main(String[] args) {

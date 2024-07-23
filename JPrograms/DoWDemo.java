@@ -6,7 +6,7 @@ do {
 
  */
 
-package JPrograms;
+
 
 public class DoWDemo {
     public static void main(String[] args) 

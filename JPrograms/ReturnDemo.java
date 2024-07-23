@@ -2,7 +2,6 @@
 This program will show how to return a value from a method
  */
 
- package JPrograms;
 
  class addition {
     int add(int a, int b) {

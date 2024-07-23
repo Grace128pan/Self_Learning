@@ -2,7 +2,6 @@
  *This program shows how a method called myMeth() is declared if it has a return type of double and has two int parameters called a and b
  */
 
- package JPrograms;
 
  class Meth {
     

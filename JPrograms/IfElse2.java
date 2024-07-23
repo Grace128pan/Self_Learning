@@ -3,7 +3,7 @@
 2. We should consider whether to add curly braces in order to avoid confusion.
  */
 
- package JPrograms;
+
 
 public class IfElse2 {
     public static void main(String[] args) {

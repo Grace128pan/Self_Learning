@@ -2,7 +2,7 @@
 1. this program will give a more efficent way of finding factors using square root way
  */
 
- package JPrograms;
+
 
  public class NestedLoop2 {
     public static void main(String[] args) {

@@ -2,7 +2,6 @@
 The following program uses length to copy one array to another while preventing an array overrun and its attendant run-time exception.
  */
 
-package JPrograms;
 
 class ArrayCopy {
     public static void main(String[] args) {

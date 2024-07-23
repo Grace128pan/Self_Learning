@@ -3,7 +3,6 @@
  2. we can use labeled break to break a specific block of code.
  */
 
- package JPrograms;
 
  public class BreakWithlabel {
     public static void main(String[] args) {

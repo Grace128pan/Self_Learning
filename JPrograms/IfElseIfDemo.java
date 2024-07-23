@@ -2,7 +2,7 @@
     * This program demonstrates the use of if-else-if statement.
  */
 
- package JPrograms;
+
 
  public class IfElseIfDemo {
      public static void main(String[] args) 

@@ -1,7 +1,6 @@
 /*
  This program can compute the square roots of numbers from 1 to 100, and it will also compute the rounding error.
  */
-package JPrograms;
 
 public class RoundingError {
     public static void main(String[] args) {

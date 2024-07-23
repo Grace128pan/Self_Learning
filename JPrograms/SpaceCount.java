@@ -3,7 +3,7 @@
  count the number of spaces. Report the total at the end of the program.
  */
 
- package JPrograms;
+
 
  public class SpaceCount {
         public static void main(String[] args)

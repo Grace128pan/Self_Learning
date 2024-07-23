@@ -3,7 +3,7 @@
  2. relational operators in Java are: <, >, <=, >=, ==, !=
  */
 
-package JPrograms;
+
 
 public class Exercise2 {
     public static void main(String[] args) {

@@ -6,7 +6,6 @@ return (double) miles/mpg;
 }
  */
 
- package JPrograms;
 
  class Vehicle6 {
     int passengers;

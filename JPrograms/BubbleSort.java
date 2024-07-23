@@ -5,7 +5,7 @@
 The following program illustrates bubble sort(which is not so efficient, next step should be the learning fo quicksort)
 */
 
-package JPrograms;
+
 
 class BubbleSort {
     public static void main(String[] args) {

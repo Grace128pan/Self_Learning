@@ -8,7 +8,6 @@
  When no references to an object exist, the memory is automatically reclaimed. The recycled memory is then available for other objects.
  */
 
- package JPrograms;
 
  class Vehicle7 {
     int passengers;

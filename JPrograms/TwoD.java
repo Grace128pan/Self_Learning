@@ -5,7 +5,7 @@ int[] [] table = new int[10][20];
 The following program demonstrate a two dimensional array
  */
 
- package JPrograms;
+
 
  class TwoD {
     public static void main(String[] args) {

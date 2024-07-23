@@ -2,7 +2,7 @@
     * This program demonstrates the use of break statement with label.
  */
 
- package JPrograms;
+
 
  public class BreakWithlabel2 {
     public static void main(String[] args) {

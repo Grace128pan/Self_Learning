@@ -6,7 +6,7 @@ int myMeth(int a, int b, double c, double d) {
     return a * b + (int) (c * d);
  */
 
- package JPrograms;
+
 
  class Factor {
     boolean isFactor(int a, int b) {

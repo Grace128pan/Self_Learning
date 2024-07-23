@@ -2,7 +2,7 @@
  1. length contains the size of the array
  */
 
- package JPrograms;
+
 
  class LengthDemo {
     public static void main(String[] args) {

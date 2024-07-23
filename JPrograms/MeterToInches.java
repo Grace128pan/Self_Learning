@@ -2,7 +2,7 @@
  *This is a program to convert meters to inches. one meter is equal to 39.37 inches. There will be a blank line every 12 inches
  */
 
-package JPrograms;
+
 
 public class MeterToInches {
     public static void main(String[] args) {

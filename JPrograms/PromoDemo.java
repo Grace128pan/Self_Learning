@@ -10,7 +10,6 @@ self-test
 
  */
 
- package JPrograms;
 
  public class PromoDemo {
     public static void main(String[] args) {

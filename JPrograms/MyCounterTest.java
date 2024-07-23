@@ -2,7 +2,7 @@
  Using two separate sttatements, show how to declar an object called counter of a class called MyCounter
  */
 
- package JPrograms;
+
 
  //declare MyCounter class
 

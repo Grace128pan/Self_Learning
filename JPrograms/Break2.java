@@ -2,7 +2,6 @@
  1. This program will read input until the user types the letter q.
  */
 
- package JPrograms;
 
  public class Break2 {
     public static void main(String[] args) 

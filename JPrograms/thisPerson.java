@@ -2,7 +2,6 @@
  1.This programs show how to use this keyword in java
  */
 
-package JPrograms;
 
 class Person {
     //attributes of the class

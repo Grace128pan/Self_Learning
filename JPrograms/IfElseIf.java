@@ -2,7 +2,7 @@
 1. This program will demonstrate if-else if-else statement ladder
  */
 
- package JPrograms;
+
 
  public class IfElseIf {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 /*
 1. a variable declared within a block is called a local variable. Objects declared within th inner scope will not be visible outside it
  */
-package JPrograms;
+
 
 public class DynInit {
     public static void main(String[] args) {

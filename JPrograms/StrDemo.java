@@ -3,7 +3,7 @@
 2. This program will demonstrate esc ape sequences in strings
 3. "k" is a string, but 'k' is a character
  */
-package JPrograms;
+
 
 public class StrDemo {
     public static void main(String[] args) {

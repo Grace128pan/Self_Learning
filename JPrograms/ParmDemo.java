@@ -2,7 +2,7 @@
     * This program demonstrates the use of parameters in a method.
  */
 
-package JPrograms;
+
 
 class ChkNum {
     boolean isEven(int x) {      //x is an integer parameter of isEven method

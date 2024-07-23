@@ -1,5 +1,5 @@
 //date types in Java: int, float, double(double precision)
-package JPrograms;
+
 
 public class Exam3 {
     public static void main(String[] args) {

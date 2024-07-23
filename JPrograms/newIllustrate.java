@@ -2,7 +2,7 @@
 The following program will illustrate how new is used to create an object of a class.
  */
 
- package JPrograms;
+
 
  class FashionCar {
      String carName;

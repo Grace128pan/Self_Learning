@@ -3,7 +3,6 @@
  does not have a return type, not even a "void"
  */
 
- package JPrograms;
 
  class PersonDemo {
     String name;

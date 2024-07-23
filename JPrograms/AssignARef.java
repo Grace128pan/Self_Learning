@@ -3,7 +3,7 @@
  you are not copying the array to be made, nor are you causing the contents of one array to be copied to the other
  */
 
- package JPrograms;
+
 
  class AssignARef {
     public static void main(String[] args) {

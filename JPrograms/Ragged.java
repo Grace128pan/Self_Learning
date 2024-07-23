@@ -2,7 +2,7 @@
  We could manually allocate different size second dimensions
  */
 
- package JPrograms;
+
 
  class Ragged {
     public static void main(String[] args) {

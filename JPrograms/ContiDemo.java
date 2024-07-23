@@ -2,7 +2,6 @@
  1. this program will demonstrate how continue is used in loops
  */
 
- package JPrograms;
 
  public class ContiDemo {
     public static void main(String[] args) {

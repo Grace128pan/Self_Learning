@@ -21,7 +21,7 @@ char table[][] = new char[3][4];
 char [][] table = new char[3][4];
  */
 
- package JPrograms;
+
 
  class Squares {
     public static void main(String[] arg) {

@@ -2,7 +2,7 @@
  use nested loop to find factors of numbers between 2 and 100
  */
 
- package JPrograms;
+
  
  public class NestedLoop {
     public static void main(String[] args) {

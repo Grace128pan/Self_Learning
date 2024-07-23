@@ -1,7 +1,7 @@
 /*
 1. This is another example of using break with label.
  */
-package JPrograms;
+
 
 public class BreakWithlabel3 {
     public static void main(String[] args) {

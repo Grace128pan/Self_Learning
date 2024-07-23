@@ -38,7 +38,7 @@ long 64             -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
 The program is to compute the number of cubic inches in 1 cubic mile
   */
 
-package JPrograms;
+
 
 public class Chapter2 {
     public static void main(String[] args) {

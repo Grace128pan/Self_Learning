@@ -2,7 +2,7 @@
  1.while using break inside a set of nested loops, the break statement will break out of only the innermost loop
  */
 
- package JPrograms;
+
 
  public class Break3 {
     public static void main(String[] args) {

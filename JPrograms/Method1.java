@@ -3,7 +3,7 @@
  The program below demonstrates how to create a method with a void return type
  */
 
- package JPrograms;
+
 
  class PrintMessage {
     //method with void return type

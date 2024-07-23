@@ -2,7 +2,7 @@
 1. Write a program that shows the use of break statement in a loop.
  */
 
- package JPrograms;
+
 
  public class BreakTest {
      public static void main(String[] args) {

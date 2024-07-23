@@ -4,7 +4,7 @@
  3. There are two types of return: one for us in void methods(those that do not return a value) and one for use in methods that do return a value
  */
 
- package JPrograms;
+
 
  class Vehicle4 {
      int passengers;

@@ -5,7 +5,7 @@ type[] array-name = {va1, val2, val3,...., valN};
 3. actually there is no need to explicitly use the new operator to create an array object
 */
 
- package JPrograms;
+ 
 
  class array {
     public static void main(String[] args) {

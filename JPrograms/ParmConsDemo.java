@@ -4,7 +4,7 @@
  The program demonstrates a parameterized constructor
  */
 
- package JPrograms;
+
 
  class MyClass2 {
     int x;

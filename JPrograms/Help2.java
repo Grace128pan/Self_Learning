@@ -2,7 +2,7 @@
  1. Improve the java help system
  */
 
- package JPrograms;
+
 
  //import necessary classes for reading input 
  import java.io.BufferedReader;   //for efficient reading of characters, arrays, and lines

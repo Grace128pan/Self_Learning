@@ -1,7 +1,6 @@
 /*
  For loop can work in a positive or negative fashion
  */
-package JPrograms;
 
 public class DecrFor {
     public static void main(String[] args) {

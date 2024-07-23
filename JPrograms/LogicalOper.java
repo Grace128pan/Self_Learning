@@ -15,7 +15,7 @@ operator      meaning
 &&            short-circuit and   // short-circuit means if first condition is true then it will not check the second condition
 In logical operations, the XOR (exclusive or) operator (^) returns true if and only if exactly one of the operands is true. If both operands are true or both are false, the result is false.
  */
-package JPrograms;
+
 
 public class LogicalOper {
     public static void main(String[] args) {

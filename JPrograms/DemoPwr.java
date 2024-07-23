@@ -2,7 +2,7 @@
  This program will demonstrate how to use this keyword in Java
  */
 
- package JPrograms;
+
 
  class Pwr {
     double b;

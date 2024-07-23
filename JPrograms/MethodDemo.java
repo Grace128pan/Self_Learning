@@ -11,7 +11,6 @@
 4.non-void method can return a value
  */
 
- package JPrograms;
 
  public class MethodDemo {
     public static void main(String[] args) {

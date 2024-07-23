@@ -2,7 +2,7 @@
  the program demonstrates a method to perform an action
  */
 
- package JPrograms;
+
 
  class Light {
     boolean isOn;

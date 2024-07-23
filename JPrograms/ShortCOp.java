@@ -17,7 +17,7 @@
  4. conversion of long to double is valid because long is an integer type and double is a floating-point type
  */
 
-package JPrograms;
+
 
 public class ShortCOp {
     public static void main(String[] args) {

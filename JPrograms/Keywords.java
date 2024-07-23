@@ -28,7 +28,7 @@
  This program is to calculate the weight of a person on the moon
  */
 
-package JPrograms;
+
 
 public class Keywords {
     public static void main(String[] args) {

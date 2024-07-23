@@ -1,6 +1,6 @@
 
 //this program shows the basic usage of variables in Java
-package JPrograms;
+
 
 public class Exam2 {
     public static void main(String[] args) {

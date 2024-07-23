@@ -2,8 +2,6 @@
 This program will show non-void method returning a value.
  */
 
-package JPrograms;
-
 class Vehicle5 {
     int passengers;
     int fuelcap;

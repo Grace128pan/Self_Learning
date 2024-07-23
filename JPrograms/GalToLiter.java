@@ -4,7 +4,7 @@
 3. The conversion factor is 3.7854.
  */
 
-package JPrograms;
+
 
 public class GalToLiter {
     public static void main(String[] args) {

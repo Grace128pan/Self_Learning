@@ -19,7 +19,6 @@
 if the method eos not return a value, the return type is void
  */
 
-package JPrograms;
 
 class VehicleN {
     int passengers;

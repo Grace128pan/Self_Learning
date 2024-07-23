@@ -9,7 +9,7 @@ for example, x=10; y= ++x; in this case, y will be set to 11, and x will be set 
 x = 10; y=x++; in this case, y will be set to 10, and x will still be set to 11
  */
 
-package JPrograms;
+
 
 public class VarLife {
     public static void main(String[] args) {

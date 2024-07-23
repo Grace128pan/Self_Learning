@@ -2,7 +2,6 @@
  The java program illustrate the use of 'this' to return the current object for method chaining.
  */
 
-package JPrograms;
 
 class People {
     private String name;

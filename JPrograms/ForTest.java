@@ -3,7 +3,7 @@
 2. This program will continue to execute until the user types the letter S at the keyboard.
  */
 
- package JPrograms;
+
 
  public class ForTest {
         public static void main(String[] args) 

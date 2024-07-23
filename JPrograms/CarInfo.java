@@ -7,8 +7,6 @@
  There is an example to illustrate the difference between a class and an object:
  */
 
- package JPrograms;
-
  class Car {
     //properties or attributes of the class
     String color;

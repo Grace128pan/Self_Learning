@@ -2,7 +2,7 @@
 1.write a program to find the sum of the first n natural numbers.
  */
 
-package JPrograms;
+
 
 public class sum {
     public static void main(String[] args) {

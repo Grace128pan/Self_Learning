@@ -2,7 +2,6 @@
 1. this program will demonstrate how to use continue with a label
  */
 
- package JPrograms;
 
  public class ContiWithLabel {
     public static void main(String[] args) {

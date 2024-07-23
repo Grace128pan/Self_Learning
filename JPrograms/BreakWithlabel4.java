@@ -2,7 +2,7 @@
  This program shows where you put the label is important
  */
 
- package JPrograms;
+
 
  public class BreakWithlabel4 {
     public static void main(String[] args) {

@@ -6,7 +6,7 @@
  use a while loop when the loop has to repeat until some condition becomes false.
  */
 
- package JPrograms;
+
 
  // This program will print alphabet from a to z and compute integer powers of 2
  public class WhileLoop {

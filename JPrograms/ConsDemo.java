@@ -11,7 +11,6 @@ for numeric types, reference types and booleans respectively
 The simple program will demonstate how to use a simple constructor
  */
 
- package JPrograms;
 
  class MyClass {
     int x;

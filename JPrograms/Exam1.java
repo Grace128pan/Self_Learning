@@ -3,7 +3,7 @@
 2. type String stores sequences of characters. args receives command-line arguments present when the program is executed.
  */
 
-package JPrograms;
+
 
 public class Exam1 {
     // A Java program begins with a call to main()

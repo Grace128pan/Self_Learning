@@ -7,7 +7,7 @@ double: double-precision floating-point(64 bits wide)
 sqrt() is used to compute the length of the hypotenuse of a right triangle with sides of length x and y
  */
 
-package JPrograms;
+
 
 public class Floatingpoint {
     public static void main(String[] args) {

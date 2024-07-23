@@ -4,7 +4,7 @@
  2. the standard 8-bit ASCII character set is a subset of unicode character set and ranges from 0 to 127. They are still valid in Java characters
  3.char is an unsigned 16-bit type, it is possible to perform various arithmetic manipulation on char variables
  */
-package JPrograms;
+
 
 public class CharDemo {
     public static void main(String[] args) {

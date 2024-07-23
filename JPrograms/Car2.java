@@ -5,7 +5,7 @@
  */
 
  //definition of the Car2 class
- package JPrograms;
+
 
  class CarTwo {
     //Instance fields(attributes) of the class

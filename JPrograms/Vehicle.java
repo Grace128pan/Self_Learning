@@ -53,7 +53,6 @@ class Vehicle {
 
  // this is a program that uses the Vehicle class
 
-package JPrograms;
 
 public class Vehicle {
     int passengers;

@@ -2,7 +2,7 @@
 1. we can use break to exit a loop
 2. the break statement can be used with any of Java's loops, including intentionally infinite loops.
  */
-package JPrograms;
+
 
 public class BreakDemo {
     public static void main(String[] args) {

@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CharDemo",
+            "request": "launch",
+            "mainClass": "CharDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Chapter5",
+            "request": "launch",
+            "mainClass": "Chapter5",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "ArrayCopy",
             "request": "launch",
             "mainClass": "JPrograms.ArrayCopy",

@@ -3,7 +3,6 @@
  2. This program will demonstate part of the for loop is missing
  */
 
- package JPrograms;
 
  public class MissingIter {
     public static void main(String[] args) {

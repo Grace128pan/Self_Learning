@@ -2,7 +2,6 @@
  Write a program to demonstrate the progression 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024 using a for loop.
  */
 
- package JPrograms;
 
  public class PowDemo {
     public static void main(String[] args) {

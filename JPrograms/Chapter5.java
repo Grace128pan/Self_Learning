@@ -35,7 +35,7 @@
  The following demonstrate a one-dimensional array
  */
 
- package JPrograms;
+ 
 
  class Chapter5 {
     public static void main(String[] args) {

@@ -8,7 +8,7 @@ So, to convert a lowercase letter to uppercase, you subtract 32 from its ASCII v
 4. The program should read characters from the keyboard
  */
 
- package JPrograms;
+
 
  public class UpperLower {
      public static void main(String[] args)

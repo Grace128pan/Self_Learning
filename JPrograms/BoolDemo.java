@@ -2,7 +2,7 @@
  1. + has a higher precedence than >, so the expression 10 > 9 is evaluated first with parentheses.
 */
 
-package JPrograms;
+
 
 public class BoolDemo {
     public static void main(String[] args) {

@@ -4,7 +4,7 @@ This program shows how help can be accessed from a class.
 /*
 This program shows how help can be accessed from a class.
 */
-package JPrograms;
+
 
 class Help4 {
     void helpOn(int what) {

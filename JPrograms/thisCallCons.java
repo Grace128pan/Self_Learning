@@ -2,7 +2,7 @@
 This program will illustrate the us of this keyword to call another constructor in the same class(constructor chain)
 */
 
-package JPrograms;
+
 
 class PersonThree {
     private String name;

@@ -2,7 +2,6 @@
  1. this program will build a help system for users to choose from if or switch method
  */
 
- package JPrograms;
 
 public class Help {
     public static void main(String[] args) throws java.io.IOException { // Corrected exception class name and added braces

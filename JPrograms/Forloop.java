@@ -4,7 +4,7 @@
 3. count = count - 1; can be written as count--;
 
  */
-package JPrograms;
+
 
 public class Forloop {
     public static void main(String[] args) {

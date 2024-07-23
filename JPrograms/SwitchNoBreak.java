@@ -30,7 +30,6 @@ switch(ch1) {
 
  */
 
- package JPrograms;
 
  public class SwitchNoBreak {
     public static void main(String[] args) {

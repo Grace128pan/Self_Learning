@@ -3,7 +3,6 @@
  2. we can also use if-else if-else if- else statement ladder; the final else is the default case
  */
 
- package JPrograms;
 
  public class Guessletter2 {
     public static void main(String[] args) 
