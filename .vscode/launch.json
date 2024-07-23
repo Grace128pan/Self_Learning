@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StrOperations",
+            "request": "launch",
+            "mainClass": "StrOperations",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "StringDemo",
+            "request": "launch",
+            "mainClass": "StringDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "search",
             "request": "launch",
             "mainClass": "search",
