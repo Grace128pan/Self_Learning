@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CLDemo",
+            "request": "launch",
+            "mainClass": "CLDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "TextBlock",
+            "request": "launch",
+            "mainClass": "TextBlock",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "StrSwitch",
             "request": "launch",
             "mainClass": "StrSwitch",
