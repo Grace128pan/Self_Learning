@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "VarDemo",
+            "request": "launch",
+            "mainClass": "VarDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "Phone",
             "request": "launch",
             "mainClass": "Phone",
