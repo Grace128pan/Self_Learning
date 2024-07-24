@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Phone",
+            "request": "launch",
+            "mainClass": "Phone",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "CLDemo",
             "request": "launch",
             "mainClass": "CLDemo",
