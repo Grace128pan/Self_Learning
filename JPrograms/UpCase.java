@@ -48,6 +48,14 @@ public class UpCase {
         //this statement turns off the 6th bit to get the uppercase
             ch = (char) ((int) ch & 65503); //ch is now uppercase
             System.out.print(ch + " ");
+
+            
         }
+        System.out.println();
+        //check if bit4 is on
+        int status = 12; // 00001100 is the binary representation of 12, THE 4th bit is on
+
+        if((status & 8)!= 0) System.out.println("Bit 4 is on.");
+        else System.out.println("bit 4 is off.");
     }
 }
