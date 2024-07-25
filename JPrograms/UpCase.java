@@ -28,7 +28,26 @@
  1     0       0         1         1      0
  0     1       0         1         1      1
  1     1       1         1         0      0
+
+ the lowercase letter a-z has the ASCII value of 97-122
+ the uppcase letter A-Z has the ASCII value of 65-90  (these values are base-10)
+ we can transform these values to base 2
+ A = 65 = 01000001 (base 2, 65/2 = 32, 1, 32/2 = 16, 0, 16/2 = 8, 0, 8/2 = 4, 0, 4/2 = 2, 0, 2/2 = 1, 0)
+ a = 97 = 01100001 (base 2, 97/2 = 48, 1, 48/2 = 24, 0, 24/2 = 12, 0, 12/2 = 6, 0, 6/2 = 3, 0, 3/2 = 1, 1)  turn off the six bit, we get uppercase
  */
+
+ //This program will demonstrate how to change lowercase letters to uppercase letters
 public class UpCase {
-    
+    public static void main(String[] args) {
+        char ch;
+
+        for(int i=0; i<26; i++) {
+            ch = (char)('a' + i);
+            System.out.print(ch + " ");
+
+        //this statement turns off the 6th bit to get the uppercase
+            ch = (char) ((int) ch & 65503); //ch is now uppercase
+            System.out.print(ch + " ");
+        }
+    }
 }

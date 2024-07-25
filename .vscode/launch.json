@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UpCase",
+            "request": "launch",
+            "mainClass": "UpCase",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "VarDemo3",
             "request": "launch",
             "mainClass": "VarDemo3",
