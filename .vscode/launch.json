@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LowCase",
+            "request": "launch",
+            "mainClass": "LowCase",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "ShowBits",
+            "request": "launch",
+            "mainClass": "ShowBits",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "UpCase",
             "request": "launch",
             "mainClass": "UpCase",
