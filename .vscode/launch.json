@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Encode",
+            "request": "launch",
+            "mainClass": "Encode",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "LowCase",
             "request": "launch",
             "mainClass": "LowCase",
