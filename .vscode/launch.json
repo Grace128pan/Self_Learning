@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ZeroFillDemo",
+            "request": "launch",
+            "mainClass": "ZeroFillDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "ShiftDemo",
+            "request": "launch",
+            "mainClass": "ShiftDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "ShiftOp",
             "request": "launch",
             "mainClass": "ShiftOp",
