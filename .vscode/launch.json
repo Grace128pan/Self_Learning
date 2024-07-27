@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TernaryOp",
+            "request": "launch",
+            "mainClass": "TernaryOp",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "ShowBitsDemo",
             "request": "launch",
             "mainClass": "ShowBitsDemo",
