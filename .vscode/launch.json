@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AvgDemo",
+            "request": "launch",
+            "mainClass": "AvgDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "IntegerInit",
+            "request": "launch",
+            "mainClass": "IntegerInit",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "DoubleArrDemo",
+            "request": "launch",
+            "mainClass": "DoubleArrDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "TernaryOp",
             "request": "launch",
             "mainClass": "TernaryOp",
