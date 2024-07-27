@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CipherTest",
+            "request": "launch",
+            "mainClass": "CipherTest",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "indexDemo",
+            "request": "launch",
+            "mainClass": "indexDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "StringSort",
+            "request": "launch",
+            "mainClass": "StringSort",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "AvgDemo",
             "request": "launch",
             "mainClass": "AvgDemo",
