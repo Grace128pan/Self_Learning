@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "overunArr",
+            "request": "launch",
+            "mainClass": "overunArr",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "QuestionOP",
+            "request": "launch",
+            "mainClass": "QuestionOP",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "BitDoubleDemo",
             "request": "launch",
             "mainClass": "BitDoubleDemo",
