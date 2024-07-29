@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ShowBits2",
+            "request": "launch",
+            "mainClass": "ShowBits2",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "VarBoolDemo",
+            "request": "launch",
+            "mainClass": "VarBoolDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "VarReserved",
             "request": "launch",
             "mainClass": "VarReserved",
