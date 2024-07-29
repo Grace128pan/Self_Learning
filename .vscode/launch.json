@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "VarReserved",
+            "request": "launch",
+            "mainClass": "VarReserved",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "StringSwiDemo",
             "request": "launch",
             "mainClass": "StringSwiDemo",
