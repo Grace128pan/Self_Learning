@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinMaxDemo",
+            "request": "launch",
+            "mainClass": "MinMaxDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "UnsignedShiftOp",
             "request": "launch",
             "mainClass": "UnsignedShiftOp",
