@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringSwiDemo",
+            "request": "launch",
+            "mainClass": "StringSwiDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "BubbleSort2",
             "request": "launch",
             "mainClass": "BubbleSort2",
