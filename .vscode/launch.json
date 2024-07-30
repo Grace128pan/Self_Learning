@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Chapter6",
+            "request": "launch",
+            "mainClass": "Chapter6",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "ShowBits2",
             "request": "launch",
             "mainClass": "ShowBits2",
