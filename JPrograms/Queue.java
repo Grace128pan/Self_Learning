@@ -1,3 +1,8 @@
+/*
+This file is connected with Que1.java
+ */
+
+
 public class Queue {
     public static void main(String[] args) {
         Que1 q = new Que1(10);
@@ -25,3 +30,11 @@ public class Queue {
         q.get();
     }
 }
+
+//C:\Users\grace\VisualStudioProject\Self_Learning\JPrograms\Queue.java
+/*
+ in order to run the code properly, we need to go the further steps
+ cd C:\Users\grace\VisualStudioProject\Self_Learning
+    javac JPrograms\Que1.java JPrograms\Queue.java
+    java -cp JPrograms Queue
+ */
