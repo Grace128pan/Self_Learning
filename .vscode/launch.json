@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CallByValue",
+            "request": "launch",
+            "mainClass": "CallByValue",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "PassOb",
+            "request": "launch",
+            "mainClass": "PassOb",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "Queue",
             "request": "launch",
             "mainClass": "Queue",
