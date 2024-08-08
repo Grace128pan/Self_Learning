@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Queue",
+            "request": "launch",
+            "mainClass": "Queue",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "FailSoft",
+            "request": "launch",
+            "mainClass": "FailSoft",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "Chapter6",
             "request": "launch",
             "mainClass": "Chapter6",
