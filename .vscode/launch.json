@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ErrInfo",
+            "request": "launch",
+            "mainClass": "ErrInfo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "ErrMsg",
+            "request": "launch",
+            "mainClass": "ErrMsg",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "WrapperExample",
+            "request": "launch",
+            "mainClass": "WrapperExample",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "WrapperExam",
+            "request": "launch",
+            "mainClass": "WrapperExam",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "CallByRefer",
             "request": "launch",
             "mainClass": "CallByRefer",
