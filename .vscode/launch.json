@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QueueConstr",
+            "request": "launch",
+            "mainClass": "QueueConstr",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "SumOb",
             "request": "launch",
             "mainClass": "SumOb",
