@@ -2,6 +2,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SumOb",
+            "request": "launch",
+            "mainClass": "SumOb",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "ConstructorOverlode",
+            "request": "launch",
+            "mainClass": "ConstructorOverlode",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "SignatureExample",
+            "request": "launch",
+            "mainClass": "SignatureExample",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "TypeConv2",
+            "request": "launch",
+            "mainClass": "TypeConv2",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "TypeConv",
+            "request": "launch",
+            "mainClass": "TypeConv",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "OverloadDemo",
+            "request": "launch",
+            "mainClass": "OverloadDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "ErrInfo",
             "request": "launch",
             "mainClass": "ErrInfo",
