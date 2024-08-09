@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StaticDemo",
+            "request": "launch",
+            "mainClass": "StaticDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Recursion",
+            "request": "launch",
+            "mainClass": "Recursion",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "QueueConstr",
             "request": "launch",
             "mainClass": "QueueConstr",
