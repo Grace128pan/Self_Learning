@@ -25,3 +25,5 @@ public class SDemo3 {
         System.out.println("Square root of 3 is " + sBlock.rootOf3);
     }
 }
+
+//as you can see the static block is executed when the class is loaded, before the constructor is called
