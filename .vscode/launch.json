@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StaticD",
+            "request": "launch",
+            "mainClass": "StaticD",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "StaticDemo",
             "request": "launch",
             "mainClass": "StaticDemo",
