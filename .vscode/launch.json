@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NestedClassDemo",
+            "request": "launch",
+            "mainClass": "NestedClassDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "QSDemo",
             "request": "launch",
             "mainClass": "QSDemo",
