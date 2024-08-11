@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "stackDemo",
+            "request": "launch",
+            "mainClass": "stackDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "AccModif",
+            "request": "launch",
+            "mainClass": "AccModif",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "Y",
             "request": "launch",
             "mainClass": "Y",
