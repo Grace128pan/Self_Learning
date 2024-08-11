@@ -14,7 +14,7 @@ class X {
     }
 }
 public class Y {
-    public static void mian(String[] args) {
+    public static void main(String[] args) {
         X ob = new X();
         ob.setCount(10);
         System.out.println("Count is: " + ob.getCount());

@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Y",
+            "request": "launch",
+            "mainClass": "Y",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "VarArgs3",
             "request": "launch",
             "mainClass": "VarArgs3",
