@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SignatureDemo",
+            "request": "launch",
+            "mainClass": "SignatureDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "PrivateDemo",
+            "request": "launch",
+            "mainClass": "PrivateDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "InnerClassDemo",
             "request": "launch",
             "mainClass": "InnerClassDemo",
