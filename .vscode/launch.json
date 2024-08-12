@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "ReverseString",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "MethOverloadingDemo",
+            "request": "launch",
+            "mainClass": "MethOverloadingDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "SwapDemo",
+            "request": "launch",
+            "mainClass": "SwapDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "stackDemo",
             "request": "launch",
             "mainClass": "stackDemo",
