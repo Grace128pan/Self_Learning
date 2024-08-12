@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StaticVariableDemo",
+            "request": "launch",
+            "mainClass": "StaticVariableDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "ReverseString",
             "request": "launch",
             "mainClass": "ReverseString",
