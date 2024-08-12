@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InnerClassDemo",
+            "request": "launch",
+            "mainClass": "InnerClassDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "StaticBlo2",
+            "request": "launch",
+            "mainClass": "StaticBlo2",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "StaticVariableDemo",
             "request": "launch",
             "mainClass": "StaticVariableDemo",
