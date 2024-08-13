@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CallByRefer2",
+            "request": "launch",
+            "mainClass": "CallByRefer2",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "CallByValue2",
+            "request": "launch",
+            "mainClass": "CallByValue2",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "SignatureDemo",
             "request": "launch",
             "mainClass": "SignatureDemo",
