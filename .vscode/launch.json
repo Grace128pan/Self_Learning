@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ResolveAmbiguity",
+            "request": "launch",
+            "mainClass": "ResolveAmbiguity",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "AmbigusArgs",
+            "request": "launch",
+            "mainClass": "AmbigusArgs",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "OverLoadVarg",
+            "request": "launch",
+            "mainClass": "OverLoadVarg",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "SumVarargs",
+            "request": "launch",
+            "mainClass": "SumVarargs",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "CallByRefer2",
             "request": "launch",
             "mainClass": "CallByRefer2",
