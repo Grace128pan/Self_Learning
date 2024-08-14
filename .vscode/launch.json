@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrivateBank",
+            "request": "launch",
+            "mainClass": "PrivateBank",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Shape",
+            "request": "launch",
+            "mainClass": "Shape",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Chapter7",
+            "request": "launch",
+            "mainClass": "Chapter7",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "ResolveAmbiguity",
             "request": "launch",
             "mainClass": "ResolveAmbiguity",
