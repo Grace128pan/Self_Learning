@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UseSuper",
+            "request": "launch",
+            "mainClass": "UseSuper",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "Shape4",
             "request": "launch",
             "mainClass": "Shape4",
