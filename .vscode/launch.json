@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Shape5",
+            "request": "launch",
+            "mainClass": "Shape5",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "TruckDemo",
+            "request": "launch",
+            "mainClass": "TruckDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "UseSuper",
             "request": "launch",
             "mainClass": "UseSuper",
