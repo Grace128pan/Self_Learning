@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Overload1",
+            "request": "launch",
+            "mainClass": "Overload1",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Overload",
+            "request": "launch",
+            "mainClass": "Overload",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "Override",
+            "request": "launch",
+            "mainClass": "Override",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "Shape6",
             "request": "launch",
             "mainClass": "Shape6",
