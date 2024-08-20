@@ -110,3 +110,10 @@ public class Shape5 {
         System.out.println("Area is " + t2.area());
     }
 }
+
+/*
+super() always refers to the constructor in the closet superclass. The super() in ColorTriangle calls the constructor in TriangleC,
+The super in TriangleC calls the constructor in TwoDShapeC.
+In a class hierarcgy, if a superclass constructor requires parameters, all subclasses must pass those parameters up the line
+this is true whether or not a subclass needs parameters of its own.
+ */

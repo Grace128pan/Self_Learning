@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Shape6",
+            "request": "launch",
+            "mainClass": "Shape6",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "SuperSubRef",
+            "request": "launch",
+            "mainClass": "SuperSubRef",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "ConstructorOrder",
+            "request": "launch",
+            "mainClass": "ConstructorOrder",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "Shape5",
             "request": "launch",
             "mainClass": "Shape5",
