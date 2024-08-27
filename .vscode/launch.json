@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DyDisDemo",
+            "request": "launch",
+            "mainClass": "DyDisDemo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "Overload1",
             "request": "launch",
             "mainClass": "Overload1",
