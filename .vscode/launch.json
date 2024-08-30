@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AbsShape",
+            "request": "launch",
+            "mainClass": "AbsShape",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "DynShapes",
+            "request": "launch",
+            "mainClass": "DynShapes",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "DyDisDemo",
             "request": "launch",
             "mainClass": "DyDisDemo",
