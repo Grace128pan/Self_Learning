@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FinalExam2",
+            "request": "launch",
+            "mainClass": "FinalExam2",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "FinalExam",
+            "request": "launch",
+            "mainClass": "FinalExam",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "AbsShape",
             "request": "launch",
             "mainClass": "AbsShape",
