@@ -11,8 +11,7 @@ else:
 monthly_salary = float(input("Enter your monthly salary: "))
 years_service = float(input("Enter your years of service: "))
 if years_service > 2.0:
-    bonus_years = years_service - 2
-    result = bonus_years * monthly_salary * 0.15
+    result = monthly_salary * 0.15
     print(f"Your bonus is {result}.")
 else:
     print("No bonus for you!")
