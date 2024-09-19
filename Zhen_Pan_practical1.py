@@ -8,6 +8,9 @@ else:
     print("Possible fever!")
 
 # practical work2-holiday bonus
+# The company has promised a Xmas bonus of 15% of the monthly salary for EVERY year of service over 2 years. 
+# this problem is a little bit confusing, 
+# 1)I assume the bonus is 15% of the monthly salary
 monthly_salary = float(input("Enter your monthly salary: "))
 years_service = float(input("Enter your years of service: "))
 if years_service > 2.0:
@@ -15,7 +18,14 @@ if years_service > 2.0:
     print(f"Your bonus is {result}.")
 else:
     print("No bonus for you!")
-
+    
+# 2)I assume the bonus is 15% of the monthly salary * (years of service -2)
+if years_service > 2.0:
+    result = monthly_salary * 0.15 * (years_service - 2)
+    print(f"Your bonus is {result}.")
+else:
+    print("No bonus for you!")
+    
 # practical work3-order the numbers
 number1 = int(input("Enter the first number: "))
 number2 = int(input("Enter the second number: "))
