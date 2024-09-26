@@ -264,4 +264,60 @@ for i in range(1, 101):
         print("Buzz")
     else:
         print(i)
-        
+
+#we could add end="," to print everything in the same line, but it is not necessary
+Fizz = 5
+Buzz = 7
+start = 1
+end = 100
+
+for num in range(start, end+1):
+    if num % Fizz == 0 and num % Buzz == 0:
+        print("FizzBuzz", end="")
+    elif num % Fizz == 0:
+        print("Fizz", end="")
+    elif num % Buzz == 0:
+        print("Buzz", end="")
+    else:
+        print(num, end="")
+    
+    if num < end:
+        print(",", end=" ")
+
+total = 0
+i = 1
+while i < 5:
+    total += i
+    i += 2
+print(total)
+
+result = 10
+
+for n in range(4):
+
+    result *= n
+
+print(result)
+
+m = 1
+while True:
+    if m%2 == 0:
+        break
+    m += 3
+print(m)
+
+
+i = 7
+for c in "potatoes":
+    if c <"i":
+        print(c, end="")   #string comparison is done by comparing unicode values
+
+all = 0
+i = 0
+while i < 10:
+    if i % 2 == 0:
+        i += 1
+        continue   # Skip adding `i` to `all` when `i` is even
+    all += i
+    i += 1
+print(all)   # 1 + 3 + 5 + 7 + 9 = 25
