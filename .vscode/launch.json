@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FinalLocalVariale",
+            "request": "launch",
+            "mainClass": "FinalLocalVariale",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "FinalParameterExample",
+            "request": "launch",
+            "mainClass": "FinalParameterExample",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "FinalStatic",
+            "request": "launch",
+            "mainClass": "FinalStatic",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "FinalExam2",
             "request": "launch",
             "mainClass": "FinalExam2",
