@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SevenTestTwo",
+            "request": "launch",
+            "mainClass": "SevenTestTwo",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "AnimalExample",
+            "request": "launch",
+            "mainClass": "AnimalExample",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "ObjectMethodsExample",
+            "request": "launch",
+            "mainClass": "ObjectMethodsExample",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "objectExample",
+            "request": "launch",
+            "mainClass": "objectExample",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "FinalLocalVariale",
             "request": "launch",
             "mainClass": "FinalLocalVariale",

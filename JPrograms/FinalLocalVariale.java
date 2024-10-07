@@ -19,4 +19,11 @@ Declaring a parameter final prevents it from being changed within the method
 Declaring a local variable final prevents it from being assigned a value more than once
 Many Java Programmers use uppercase identifiers for final constants
  */
-    
+
+/*
+ java defines ine special class called object
+ it is an implicit superclass of all other classes
+ all other classes are subclasses of object
+ a reference variable of type object can refer to an object of any other class
+ since arrays are implemented as classes, a variable of type object can refer to any array
+ */
