@@ -18,3 +18,24 @@ Potato field -> ****** *****
 User enters o -> *o***o *****
 In principle, this is a good start for the game of hangman (possible final project).
 '''
+
+player1 = input("Enter a text: ")
+
+filtered_text = "".join(char for char in player1 if char.isalpha() or char.isspace())    
+
+player2 = input("Enter a symbol: ")
+
+for i in range(len(filtered_text)):
+    if player2.isalpha() and len(player2) == 1:
+        result = ""
+    
+        for char in filtered_text:
+            if char == player2:
+                result += char
+            elif char == " ":
+                result +=" "
+            else:
+                result += "*"
+        print(result)
+    else:
+        print("Enter a single letter")

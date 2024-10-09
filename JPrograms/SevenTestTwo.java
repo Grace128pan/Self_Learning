@@ -55,3 +55,5 @@ public class SevenTestTwo {
         System.out.println("Area is " + myCircle.area());
     }
 }
+
+//test3: normally we can use private to prevent a subclass from accessing a member of a superclass
