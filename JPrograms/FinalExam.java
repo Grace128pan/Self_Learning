@@ -17,7 +17,7 @@ final class A {
 class B extends A { //Error! Can't subclass A.
     //...}
  */
-
+/* 
 class ErrorMsg {
     //error codes
     final int OUTERR = 0;
@@ -48,3 +48,4 @@ public class FinalExam {
    System.out.println(err.getErrorMsg(err.DISKERR));
 }
 }
+*/
