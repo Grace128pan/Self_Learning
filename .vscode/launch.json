@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SevenTestSix",
+            "request": "launch",
+            "mainClass": "SevenTestSix",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "SevenTestFive",
+            "request": "launch",
+            "mainClass": "SevenTestFive",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "SevenTestFour1",
+            "request": "launch",
+            "mainClass": "SevenTestFour1",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
+            "name": "SevenTestFour",
+            "request": "launch",
+            "mainClass": "SevenTestFour",
+            "projectName": "Self_Learning_f135990f"
+        },
+        {
+            "type": "java",
             "name": "SevenTestTwo",
             "request": "launch",
             "mainClass": "SevenTestTwo",

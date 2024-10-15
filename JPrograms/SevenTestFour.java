@@ -37,5 +37,8 @@ class Dog10 extends Animal10 {
     }
 }
 public class SevenTestFour {
-    
+    public static void main(String[] args) {
+        Dog10 d = new Dog10("Buddy", "Labrador");
+        d.displayInfo10(); //calling the subclass method
+    }
 }
