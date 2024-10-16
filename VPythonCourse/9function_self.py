@@ -102,3 +102,37 @@ def find_needle(needle, my_list):
 
 my_soup = find_needle("soup", food_list)
 print(my_soup)  # if soup is not found, we get none as the result output
+
+#modify the original list
+def add_food(food, mylist):
+    mylist.append(food)  # Append the original food
+    mylist.append("Strawberries")  # Append "Strawberries" to the original list
+    return mylist  # Return the modified original list
+
+
+food_list = ["beet soup", "salad", "meat and potatoes", "Ice cream"]
+dessert = "Ice Cream"
+add_food(dessert, food_list)
+
+print(food_list)  # ['beet soup', 'salad', 'meat and potatoes', 'Ice cream', 'Ice Cream', 'Strawberries']
+
+
+def add_food1(food, mylist):
+    new_list = mylist.copy()  # Create a copy of the original list to avoid modifying it
+    new_list.append(food)  # Append the original food
+    new_list.append("Strawberries")  # Append "Strawberries" to the new list
+    return new_list  # Return the new list without modifying the original
+
+
+food_list = ["beet soup", "salad", "meat and potatoes", "Ice cream"]
+dessert = "Ice Cream"
+new_menu = add_food1(dessert, food_list)
+
+print(food_list)  # Original list remains unchanged: ['beet soup', 'salad', 'meat and potatoes', 'Ice cream']
+print(new_menu)  # New list: ['beet soup', 'salad', 'meat and potatoes', 'Ice cream', 'Ice Cream', 'Strawberries']
+
+alias_for_my_list = add_food("Pizza", food_list)
+print(alias_for_my_list)
+
+#default values in function parameters 
+
