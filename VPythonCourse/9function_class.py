@@ -65,3 +65,49 @@ leave()
 
 greet()
 
+# triple quotes to document the function
+
+def dance(dancers, songs):
+    
+        """This function will print out the number of dancers and songs"""
+    
+        print(f"There are {dancers} dancers and {songs} songs")
+
+dance(5,10)
+
+#do not use global inside a function, it is bad practice
+#we can use star to get multiple arguments
+def add(*args):
+    result = 0
+    for arg in args:
+        result += arg
+    return result
+
+print(add(1,2,3,4,5,6,7,8,9,10))
+
+#another way is to give a list of stuff as arguments instead of star arguments
+def add_list(args):
+    result = 0
+    for arg in args:
+        result += arg
+    return result
+
+print(add_list([1,2,3,4,5,6,7,8,9,10]))
+
+#we can return tuples using comma to separate the values
+def get_name():
+    return 'John', 'Doe'
+
+print(get_name())
+
+#type hints
+#type hints is a new feature of python 3.5
+#let's see a code example function that utilizes type hints and doc strings as well
+def multiplier(a: int, b: int) -> int:
+    """This function will multiply two numbers"""
+    return a*b
+
+print(multiplier(5,10))
+
+#now let's try string and a number
+print(multiplier('Beer', 5))
