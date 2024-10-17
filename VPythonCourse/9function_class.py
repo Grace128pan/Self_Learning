@@ -111,3 +111,5 @@ print(multiplier(5,10))
 
 #now let's try string and a number
 print(multiplier('Beer', 5))
+
+#next week, we will learn dictionaries
