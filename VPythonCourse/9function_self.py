@@ -135,4 +135,89 @@ alias_for_my_list = add_food("Pizza", food_list)
 print(alias_for_my_list)
 
 #default values in function parameters 
+# i can make all values default
+# so this means I do not have to specify all values when calling function
+def make_cocktail(soda="tomato juice", alcohol="Vodka", mixer="Glass"):
+    print(f"Mixing {soda} with {alcohol} in a {mixer}")
+    return f"{soda}X{alcohol}"
 
+
+make_cocktail("coke", "rum", "shaker") # this is normal function call
+make_cocktail("tonic", "gin") # i can be lazy i can use glass as default, here I skip last value which will be default
+make_cocktail() # all values are default
+make_cocktail(alcohol="Grappa") # so I can skip some default values
+
+# so I could keep the old functionality - thus not breaking previous code
+# and add options to do something else
+# here I add option to debug/print intermediate results
+def sub(a, b, debug_mode=False):
+    if debug_mode:
+        print(f"Debugging {a} - {b} should be {a-b}")
+    return(a-b)
+sub(20, 3)
+
+
+sub(30,5, True)
+# Even better would be to pass the name of argument
+# this is especially important when we have boolean flags
+# again Python is not checking whether that is a boolean
+sub(40, 7, debug_mode=True)
+
+#avoid using global inside functions
+result = 100
+print(result)
+
+def add_result(a, b, result):
+    result += a+b # same result = result + (a+b)
+    # many calculations
+    print(result)
+    return result
+
+# I could overwrite the old result with new one
+result = add_result(5,10, result)
+print(result)
+
+def add3(a,b,c):
+    print(a+b+c)
+    return(a+b+c)
+add3(13,26,864)
+
+#function names serve as a way of self-documenting code
+print(add3(list(range(5,10)), [1,3,6], [5,'VVVV']))
+
+result = add3("A","BRACA","DABRA")
+print(result)
+
+#Docstrings
+#Docstrings are strings that appear right after the function definition and are used to document the function
+def is_prime(num, debug=False):
+    '''
+    Super simple method of checking for prime. 
+    '''
+    for n in range(2,num): #How could we optimize this?
+        if num % n == 0:
+            if debug:
+                print(f'{num} is not prime, it divides by {n}')
+            return False
+    else: # runs when no divisors found
+        if debug:
+            print(f'{num} is prime')
+        return True
+print(is_prime(53))  #  I can now hover over my function and see description and help
+print(is_prime(51))
+print(is_prime(59, debug=True))
+
+def is_prime_optimized(num):
+    '''
+    Faster method of checking for prime. 
+    Only checks values for up to square root of number plus 1
+    '''
+    if num % 2 == 0 and num > 2: 
+        return False
+    for i in range(3, int(num**0.5) + 1, 2): ## notice we only care about odd numbers  and do not need to check past sqrt of num
+        if num % i == 0:
+            return False
+    return True
+
+
+is_prime_optimized(23)  #should return true
