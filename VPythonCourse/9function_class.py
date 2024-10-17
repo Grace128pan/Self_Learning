@@ -26,3 +26,42 @@ def remove_item(item, mylist):
     print(mylist)
 
 remove_item('banana', food_list)
+
+def calc(a,b=5,c=10):
+
+    return a+b+c
+
+print(calc(5) + calc(10,20) + calc(1,2,3))
+
+def changed(text):
+
+    return text[:2]+text + text[-1].upper()*3
+
+print(changed('Ice cream'))  
+
+
+def add(a,b):
+
+    return a+b
+
+def mult(a,b):
+
+    return a*b
+
+print(mult(add(0,3),mult(2,4)))
+
+
+def greet():
+
+    print("hello")
+
+def leave():
+
+    print("bye")
+
+greet()
+
+leave()
+
+greet()
+
