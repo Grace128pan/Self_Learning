@@ -13,3 +13,7 @@ student = {("name", "alice"), ("age", 20),("grade", "A")}
 student1 = {"name": "alice", "age": 20, "grade": "A"}
 print(student)
 print(student1)
+
+emptyd = {} # most common way of creating a new dictionary
+print(len(emptyd))
+print(type(emptyd))
