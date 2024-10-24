@@ -107,3 +107,38 @@ food = "kartupelis"
 d = {c:c.upper()*2 for c in food}
 print(d['c'])
 '''
+
+jacks_phone = tel.pop("jack")
+print(jacks_phone)
+
+#list can not be keys in dictionary
+
+#reversing a dictionary
+#keys have to be unique in dictionary
+
+#LET'S HAVE a simple dictionary with numbers
+simple_dict = {"alice": 25, "bob": 30, "charlie": 35, "dave": 40, "eve": 45}
+print(simple_dict)
+
+#then reverse dictionary is very easy to make
+reverse_dict = {v:k for k,v in simple_dict.items()}
+print(reverse_dict)
+
+#complex examples of reversing a dictionary
+
+# & C:/Users/grace/AppData/Local/Programs/Python/Python312/python.exe c:/Users/grace/VisualStudioProject/Self_Learning/VPythonCourse/10dictionary.py
+
+#let's have an example with ages where we have duplicates
+simple_dict = {"alice": 25, "bob": 30, "charlie": 30, "dave": 40, "eve": 45, "frank": 30, "george": 40, "Grace": 25}
+
+def reverse_dict_with_lists(input_dict):
+    output_dict = {}
+    for k,v in input_dict.items():
+        if v not in output_dict:
+            output_dict[v] = [k]
+        else:
+            output_dict[v].append(k)
+    return output_dict
+
+reversed_dict = reverse_dict_with_lists(simple_dict)
+print(reversed_dict)
