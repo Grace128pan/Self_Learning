@@ -142,3 +142,37 @@ def reverse_dict_with_lists(input_dict):
 
 reversed_dict = reverse_dict_with_lists(simple_dict)
 print(reversed_dict)
+
+
+key = 'police'
+value = 911
+if key not in tel:
+    tel[key] = value
+    print(f"Added new key {key} value {value} pair")
+else:
+    print("You already have key", key, "value", tel[key])
+print(tel)
+
+# we can clear all keys and values from dictionary
+print(tel.clear())
+# & C:/Users/grace/AppData/Local/Programs/Python/Python312/python.exe c:/Users/grace/VisualStudioProject/Self_Learning/VPythonCourse/10dictionary.py
+
+#counting things in dictionaries
+myrandom = [1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10]
+mycounter = {}
+for num in myrandom:
+    if num not in mycounter:
+        mycounter[num] = 1
+    else:
+        mycounter[num] += 1
+print(mycounter)
+
+#dictionaries comprehensions
+mycounter = {num:myrandom.count(num) for num in myrandom}
+print(mycounter)
+
+#deleting values from dictionaries
+#we use copy() to avoid changing original dictionary
+#updating values in dictionaries with another dictionary
+#we can use update method
+#it is always safer to use copy() method to avoid changing original dictionary
